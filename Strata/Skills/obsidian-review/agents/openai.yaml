@@ -1,0 +1,4 @@
+interface:
+  display_name: "Obsidian Review"
+  short_description: "Talk through a week, month, or year and write the review"
+  default_prompt: "Use $obsidian-review to hold my retrospective for the last closed period."

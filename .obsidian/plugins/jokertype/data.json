@@ -1,0 +1,33 @@
+{
+  "enabled": true,
+  "soundEnabled": true,
+  "volume": 0.05,
+  "pitchMax": 1.3,
+  "pitchRiseSteps": 50,
+  "pitchResetMs": 300,
+  "visualTheme": "terminal",
+  "effectIntensity": "medium",
+  "textGlyphsEnabled": true,
+  "enterEffectsEnabled": true,
+  "deleteEffectsEnabled": true,
+  "glyphLifetimeMs": 1300,
+  "cornerBracketsEnabled": false,
+  "reducedMotion": false,
+  "editorShake": true,
+  "statusComboEnabled": true,
+  "throttleLargeChanges": true,
+  "markdownMomentDeck": "full-deck",
+  "markdownMomentEnabled": {
+    "title": true,
+    "linked": true,
+    "embedded": true,
+    "quest": true,
+    "cleared": true,
+    "summoned": true,
+    "locked-in": true,
+    "cited": true,
+    "dealt": true,
+    "grid": true
+  },
+  "preset": "subtle"
+}

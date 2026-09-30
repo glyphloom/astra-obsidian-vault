@@ -1,0 +1,18 @@
+{
+  "features": {
+    "journalGraphLinks": true,
+    "contextMenuOrganizer": true,
+    "taskClickMenu": true,
+    "taskLucideIcons": true,
+    "vaultCards": true
+  },
+  "journalGraphLinks": {
+    "dailyJournal": "Personal Daily",
+    "weeklyJournal": "Personal Weekly",
+    "monthlyJournal": "Personal Monthly",
+    "yearlyJournal": "Personal Yearly"
+  },
+  "vaultCards": {
+    "cardsPerDay": 5
+  }
+}

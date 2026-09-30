@@ -1,0 +1,18 @@
+# Local Obsidian UI/runtime state; never part of the public export.
+.obsidian/workspace-mobile.json
+.obsidian/workspaces.json
+.obsidian/workspace.json.*
+.obsidian/workspace-mobile.json.*
+.obsidian/workspaces.json.*
+.DS_Store
+/.trash/
+# Local plugin state created while a copy is open as a vault.
+/.smart-env/
+/.claudian/
+# Agent pre-edit copies written by the daily helper and bulk edits.
+/Strata/.backups/
+# Community plugins and themes installed from the catalog in a local copy,
+# and the settings they write, may hold tokens; only the plugin files the
+# export publishes are tracked. The export appends one line per published file.
+.obsidian/themes/
+.obsidian/plugins/*/*

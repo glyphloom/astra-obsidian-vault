@@ -1,0 +1,10 @@
+{
+  "id": "daily-intake",
+  "name": "Daily Intake",
+  "version": "0.1.0",
+  "minAppVersion": "1.8.0",
+  "description": "Review Telegram captures before appending them to a daily journal.",
+  "author": "glyphloom",
+  "authorUrl": "https://github.com/glyphloom",
+  "isDesktopOnly": true
+}

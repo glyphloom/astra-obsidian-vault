@@ -1,0 +1,421 @@
+{
+  "schema": "public-vault-plugin-catalog/v2",
+  "installation": "manual-only",
+  "theme": "Minimal",
+  "plugins": [
+    {
+      "id": "custom-sort",
+      "name": "Custom File Explorer sorting",
+      "version": "3.2.0",
+      "description": "Allows for manual and automatic, config-driven reordering and sorting of files and folders in File Explorer",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "allowlisted-preferences"
+    },
+    {
+      "id": "obsidian-outliner",
+      "name": "Outliner",
+      "version": "4.10.2",
+      "description": "Work with your lists like in Workflowy or RoamResearch.",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "omitted"
+    },
+    {
+      "id": "obsidian-tasks-plugin",
+      "name": "Tasks",
+      "version": "8.4.0",
+      "description": "Track tasks across your vault. Supports due dates, recurring tasks, done dates, sub-set of checklist items, and filtering.",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "allowlisted-preferences"
+    },
+    {
+      "id": "templater-obsidian",
+      "name": "Templater",
+      "version": "2.25.1",
+      "description": "Advanced templating and automation using handlebars-like syntax.",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "allowlisted-preferences"
+    },
+    {
+      "id": "omnisearch",
+      "name": "Omnisearch",
+      "version": "1.31.0",
+      "description": "A search engine that just works.",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "allowlisted-preferences"
+    },
+    {
+      "id": "recent-files-obsidian",
+      "name": "Recent Files",
+      "version": "1.7.10",
+      "description": "List files by most recently opened.",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "omitted"
+    },
+    {
+      "id": "tag-wrangler",
+      "name": "Tag Wrangler",
+      "version": "0.6.5",
+      "description": "Rename, merge, toggle, and search tags from the tags view; create/open tag pages, and more.",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "omitted"
+    },
+    {
+      "id": "dataview",
+      "name": "Dataview",
+      "version": "0.5.68",
+      "description": "Complex data views for the data-obsessed.",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "allowlisted-preferences"
+    },
+    {
+      "id": "obsidian42-brat",
+      "name": "BRAT",
+      "version": "2.2.0",
+      "description": "Easily install plugin beta versions for testing.",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "omitted"
+    },
+    {
+      "id": "nldates-obsidian",
+      "name": "Natural Language Dates",
+      "version": "0.6.4",
+      "description": "Create date-links based on natural language",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "omitted"
+    },
+    {
+      "id": "mermaid-tools",
+      "name": "Mermaid Tools",
+      "version": "1.4.1",
+      "description": "Improved Mermaid.js experience for Obsidian: visual toolbar with common elements & more",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "synthetic-skeleton"
+    },
+    {
+      "id": "iconic",
+      "name": "Iconic",
+      "version": "1.1.10",
+      "description": "Customize your icons and their colors directly from the UI, including tabs, files & folders, bookmarks, tags, properties, and ribbon commands.",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "allowlisted-preferences"
+    },
+    {
+      "id": "homepage",
+      "name": "Homepage",
+      "version": "4.5.0",
+      "description": "Open a specified note, canvas, base, or workspace on startup, or set it for quick access later.",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "synthetic-skeleton"
+    },
+    {
+      "id": "multi-properties",
+      "name": "Multi Properties",
+      "version": "1.4.3",
+      "description": "Adds Properties to multiple notes at once.  Either right-click a folder, or select multiple notes and right-click the selection.",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "allowlisted-preferences"
+    },
+    {
+      "id": "open-tab-settings",
+      "name": "Open Tab Settings",
+      "version": "3.1.4",
+      "description": "Adds options to customize how tabs are opened, including open in new tab by default, preventing duplicate tabs, and more.",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "allowlisted-preferences"
+    },
+    {
+      "id": "obsidian-kanban",
+      "name": "Kanban",
+      "version": "2.0.51",
+      "description": "Create markdown-backed Kanban boards in Obsidian.",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "omitted"
+    },
+    {
+      "id": "simple-archiver",
+      "name": "Simple Archiver",
+      "version": "0.6.2",
+      "description": "Move old, stinky notes and folders to an archive, where they belong.",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "allowlisted-preferences"
+    },
+    {
+      "id": "dataview-serializer",
+      "name": "Dataview Serializer",
+      "version": "3.1.3",
+      "description": "Serialize Dataview queries to Markdown, and keep the Markdown representation up to date.",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "allowlisted-preferences"
+    },
+    {
+      "id": "quickadd",
+      "name": "QuickAdd",
+      "version": "2.27.0",
+      "description": "Quickly add new pages or content to your vault.",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "omitted"
+    },
+    {
+      "id": "buttons",
+      "name": "Buttons",
+      "version": "0.9.13",
+      "description": "Create Buttons in your Obsidian notes to run commands, open links, and insert templates",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "omitted"
+    },
+    {
+      "id": "realclaudian",
+      "name": "Claudian",
+      "version": "2.3.3",
+      "description": "Embeds Claude Code, Codex, and other coding agents as AI collaborators in your vault. Your vault becomes their working directory, giving them capabilities for file reads and writes, search, bash commands, and multi-step workflows.",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "omitted"
+    },
+    {
+      "id": "table-editor-obsidian",
+      "name": "Advanced Tables",
+      "version": "0.23.2",
+      "description": "Improved table navigation, formatting, manipulation, and formulas.",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "allowlisted-preferences"
+    },
+    {
+      "id": "code-emitter",
+      "name": "Code Emitter",
+      "version": "0.4.0",
+      "description": "An Obsidian plugin that allows code blocks to be executed interactively like in Jupyter Notebooks. Supports languages like Rust, Kotlin, Python, JavaScript, TypeScript etc.",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "omitted"
+    },
+    {
+      "id": "obsidian-style-settings",
+      "name": "Style Settings",
+      "version": "1.0.9",
+      "description": "Offers controls for adjusting theme, plugin, and snippet CSS variables.",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "allowlisted-preferences"
+    },
+    {
+      "id": "metadata-hider",
+      "name": "Metadata Hider",
+      "version": "1.0.2",
+      "description": "Hide specific metadata property or if its value is empty.",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "allowlisted-preferences"
+    },
+    {
+      "id": "jokertype",
+      "name": "JokerType",
+      "version": "1.3.3",
+      "description": "Game-like Markdown Moments, typing particles, and rising-pitch sounds.",
+      "optional": true,
+      "bundled": true,
+      "settingsProfile": "allowlisted-preferences"
+    },
+    {
+      "id": "obsidian-linter",
+      "name": "Linter",
+      "version": "1.33.0",
+      "description": "Formats and styles your notes. It can be used to format YAML tags, aliases, arrays, and metadata; footnotes; headings; spacing; math blocks; regular markdown contents like list, italics, and bold styles; and more with the use of custom rule options as well.",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "allowlisted-preferences"
+    },
+    {
+      "id": "obsidian-minimal-settings",
+      "name": "Minimal Theme Settings",
+      "version": "9.0.0",
+      "description": "Change the colors, fonts and features of Minimal Theme.",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "allowlisted-preferences"
+    },
+    {
+      "id": "mcp-tools-istefox",
+      "name": "MCP Connector",
+      "version": "2.7.0",
+      "description": "Expose your vault to Claude and any MCP client over the Model Context Protocol, with on-device semantic search.",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "omitted"
+    },
+    {
+      "id": "smart-connections",
+      "name": "Smart Connections",
+      "version": "4.7.2",
+      "description": "AI link discovery copilot. See related notes as you write. Lookup using semantic (vector) search across your vault. Zero-setup local model for embeddings, no API keys, private.",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "omitted"
+    },
+    {
+      "id": "smart-lookup",
+      "name": "Smart Lookup",
+      "version": "0.3.4",
+      "description": "Semantic search for your vault. Ask in natural language, find notes by meaning when exact words fail, preview matching notes, and turn forgotten ideas into links, context, and next steps.",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "omitted"
+    },
+    {
+      "id": "moods",
+      "name": "Moods",
+      "version": "0.18.40",
+      "description": "Apply contextual colors and mood-selected themes in Obsidian.",
+      "optional": true,
+      "bundled": true,
+      "settingsProfile": "allowlisted-preferences"
+    },
+    {
+      "id": "folder-notes",
+      "name": "Folder notes",
+      "version": "1.8.26",
+      "description": "Create notes within folders that can be accessed without collapsing the folder, similar to the functionality offered in Notion.",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "allowlisted-preferences"
+    },
+    {
+      "id": "better-paste",
+      "name": "Better Paste",
+      "version": "1.0.15",
+      "description": "Clean up what you paste. Save images into the vault, strip tracking from links, unwrap terminal output, and normalize AI typography.",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "allowlisted-preferences"
+    },
+    {
+      "id": "callout-suggestions",
+      "name": "Callout Suggestions",
+      "version": "1.0.2",
+      "description": "Adds a fuzzy searched suggestion modal for callouts.",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "omitted"
+    },
+    {
+      "id": "chronos",
+      "name": "Chronos Timeline",
+      "version": "3.6.10",
+      "description": "Render interactive timelines in your notes from Markdown.",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "allowlisted-preferences"
+    },
+    {
+      "id": "journals",
+      "name": "Journals",
+      "version": "3.5.1",
+      "description": "Manage your journals, calendars, and periodic notes.",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "allowlisted-preferences"
+    },
+    {
+      "id": "glossary-linker",
+      "name": "Glossary Linker",
+      "version": "1.7.0",
+      "description": "Highlights glossary terms in any word form, turns them into real links, and learns new aliases from links you already made.",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "allowlisted-preferences"
+    },
+    {
+      "id": "advanced-canvas",
+      "name": "Advanced Canvas",
+      "version": "7.0.1",
+      "description": "Supercharge your canvas experience! Create presentations, flowcharts and more!",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "allowlisted-preferences"
+    },
+    {
+      "id": "obsidian-link-embed",
+      "name": "Link Embed",
+      "version": "2.10.5",
+      "description": "This plugin auto-fetches page metadata to embed Notion-style link preview cards.",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "omitted"
+    },
+    {
+      "id": "obsidian-mkdocs-publisher",
+      "name": "Enveloppe",
+      "version": "7.8.2",
+      "description": "Enveloppe helps you to publish your notes on a preconfigured GitHub repository, for free, and more!",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "omitted"
+    },
+    {
+      "id": "astra-vault",
+      "name": "Astra Vault",
+      "version": "1.1.0",
+      "description": "Small vault-specific features in one plugin: journal graph links, a tidier file menu, Tasks checkbox and icon tweaks, and Vault Cards flashcards.",
+      "optional": true,
+      "bundled": true,
+      "settingsProfile": "allowlisted-preferences"
+    },
+    {
+      "id": "note-refactor-obsidian",
+      "name": "Note Refactor",
+      "version": "1.8.2",
+      "description": "Extract note content into new notes and split notes",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "allowlisted-preferences"
+    },
+    {
+      "id": "callout-manager",
+      "name": "Callout Manager",
+      "version": "1.1.2",
+      "description": "Easily create and customize callouts.",
+      "optional": true,
+      "bundled": false,
+      "settingsProfile": "allowlisted-preferences"
+    },
+    {
+      "id": "daily-intake",
+      "name": "Daily Intake",
+      "version": "0.1.0",
+      "description": "Review Telegram captures before appending them to a daily journal.",
+      "optional": true,
+      "bundled": true,
+      "settingsProfile": "omitted"
+    },
+    {
+      "id": "public-vault-export",
+      "name": "Public Vault",
+      "version": "1.1.0",
+      "description": "Exports this vault's public copy, and in that copy offers to install the community plugins and theme it uses.",
+      "optional": true,
+      "bundled": true,
+      "settingsProfile": "omitted"
+    }
+  ]
+}

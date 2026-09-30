@@ -1,0 +1,128 @@
+/*
+Framed representative image:
+> [!media-frame]
+> ![[image.ext|Concise factual description]]
+
+Obsidian exposes the embed alias as alt text. The frame repeats it visibly as
+a caption beneath the centered image.
+*/
+
+.callout[data-callout="media-frame"] {
+	background: linear-gradient(
+		145deg,
+		var(--background-secondary),
+		var(--background-primary-alt)
+	);
+	border: 1px solid var(--background-modifier-border-hover);
+	border-radius: 14px;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+	isolation: isolate;
+	mix-blend-mode: normal !important;
+	overflow: hidden;
+	padding: 8px;
+}
+
+.callout[data-callout="media-frame"] .callout-title {
+	display: none;
+}
+
+.callout[data-callout="media-frame"] .callout-content {
+	padding: 0;
+}
+
+.callout[data-callout="media-frame"] .callout-content p {
+	margin: 0 !important;
+}
+
+.callout[data-callout="media-frame"] .internal-embed.image-embed {
+	display: block;
+	line-height: 0;
+	text-align: center;
+	width: 100%;
+}
+
+.callout[data-callout="media-frame"] img {
+	border-radius: 9px;
+	display: block;
+	filter: none !important;
+	height: auto;
+	margin: 0 auto;
+	max-width: 100%;
+	mix-blend-mode: normal !important;
+	opacity: 1 !important;
+	width: 100%;
+}
+
+.callout[data-callout="media-frame"] .internal-embed.image-embed[alt]::after {
+	border-top: 1px solid var(--background-modifier-border);
+	color: var(--text-muted);
+	content: attr(alt);
+	display: block;
+	font-size: var(--font-smallest);
+	font-style: italic;
+	letter-spacing: 0.01em;
+	line-height: 1.4;
+	margin-top: 8px;
+	padding: 8px 10px 4px;
+	text-align: center;
+}
+
+/*
+Several photos sent together, shown as one compact horizontally scrolling strip:
+
+> [!media-gallery]
+> ![[photo-1.jpg|Concise factual description]]
+> ![[photo-2.jpg|Concise factual description]]
+
+Each image keeps its own embed, so it can still be opened separately.
+*/
+
+.callout[data-callout="media-gallery"] {
+	background: linear-gradient(
+		145deg,
+		var(--background-secondary),
+		var(--background-primary-alt)
+	);
+	border: 1px solid var(--background-modifier-border-hover);
+	border-radius: 14px;
+	mix-blend-mode: normal !important;
+	padding: 8px;
+}
+
+.callout[data-callout="media-gallery"] .callout-title {
+	display: none;
+}
+
+.callout[data-callout="media-gallery"] .callout-content {
+	padding: 0;
+}
+
+.callout[data-callout="media-gallery"] .callout-content p {
+	display: flex !important; /* outranks Minimal's global img-grid */
+	gap: 8px;
+	margin: 0 !important;
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	scrollbar-width: thin;
+}
+
+.callout[data-callout="media-gallery"] .callout-content p br {
+	display: none;
+}
+
+.callout[data-callout="media-gallery"] .internal-embed.image-embed {
+	flex: 0 0 auto;
+	line-height: 0;
+	scroll-snap-align: start;
+}
+
+.callout[data-callout="media-gallery"] img {
+	border-radius: 9px;
+	display: block;
+	filter: none !important;
+	height: 240px;
+	max-width: 80vw;
+	object-fit: cover;
+	opacity: 1 !important;
+	width: auto;
+}

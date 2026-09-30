@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="180" viewBox="0 0 320 180" role="img" aria-labelledby="title desc">
+  <title id="title">Public vault mark</title>
+  <desc id="desc">A simple indigo constellation of linked notes.</desc>
+  <rect width="320" height="180" rx="24" fill="#111827"/>
+  <path d="M70 121 126 70l72 24 49-45" fill="none" stroke="#a5b4fc" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="70" cy="121" r="13" fill="#c7d2fe"/>
+  <circle cx="126" cy="70" r="13" fill="#818cf8"/>
+  <circle cx="198" cy="94" r="13" fill="#818cf8"/>
+  <circle cx="247" cy="49" r="13" fill="#c7d2fe"/>
+  <text x="28" y="158" fill="#e0e7ff" font-family="system-ui, sans-serif" font-size="18">a small, portable knowledge garden</text>
+</svg>

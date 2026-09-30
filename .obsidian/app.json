@@ -1,0 +1,15 @@
+{
+  "attachmentFolderPath": "Strata/Attachments",
+  "defaultViewMode": "source",
+  "newFileLocation": "current",
+  "openBehavior": "",
+  "propertiesInDocument": "source",
+  "trashOption": "local",
+  "alwaysUpdateLinks": true,
+  "focusNewTab": false,
+  "livePreview": false,
+  "promptDelete": false,
+  "readableLineLength": true,
+  "showLineNumber": false,
+  "showUnsupportedFiles": true
+}

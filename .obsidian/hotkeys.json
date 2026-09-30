@@ -1,0 +1,62 @@
+{
+  "app:toggle-left-sidebar": [
+    {
+      "key": "[",
+      "modifiers": [
+        "Mod"
+      ]
+    }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "key": "]",
+      "modifiers": [
+        "Mod"
+      ]
+    }
+  ],
+  "editor:delete-paragraph": [],
+  "editor:insert-wikilink": [
+    {
+      "key": "L",
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ]
+    }
+  ],
+  "obsidian-outliner:fold": [],
+  "obsidian-outliner:unfold": [],
+  "omnisearch:show-modal": [
+    {
+      "key": "A",
+      "modifiers": [
+        "Mod"
+      ]
+    }
+  ],
+  "templater-obsidian:insert-templater": [
+    {
+      "key": "D",
+      "modifiers": [
+        "Mod"
+      ]
+    }
+  ],
+  "audio-recorder:start": [
+    {
+      "key": "R",
+      "modifiers": [
+        "Alt"
+      ]
+    }
+  ],
+  "audio-recorder:stop": [
+    {
+      "key": "S",
+      "modifiers": [
+        "Alt"
+      ]
+    }
+  ]
+}

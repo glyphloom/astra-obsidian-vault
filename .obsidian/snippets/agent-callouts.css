@@ -1,0 +1,190 @@
+/* Agent callouts: how agents and recordings show up in notes. */
+
+/* === Agent inbox === */
+.callout[data-callout="agent-inbox"] {
+  --callout-content-background: transparent !important;
+  --callout-blend-mode: normal !important;
+  background-color: transparent !important;
+  mix-blend-mode: normal !important;
+}
+
+.callout[data-callout="agent-inbox"] > .callout-title,
+.callout[data-callout="agent-inbox"] > .callout-content {
+  color: var(--text-normal) !important;
+}
+
+.callout[data-callout="agent-inbox"] > .callout-content {
+  background: transparent !important;
+}
+
+/* === Audio transcripts === */
+/* A quiet container for recorded, rather than authored, context. */
+.callout[data-callout="audio-transcript"] {
+  --callout-icon: lucide-audio-lines;
+  background: color-mix(in srgb, var(--background-secondary) 55%, transparent);
+  border: 0;
+  border-left: 2px solid color-mix(in srgb, var(--text-muted) 45%, transparent);
+  box-shadow: none;
+  padding: 0.45rem 0.65rem;
+}
+
+.callout[data-callout="audio-transcript"] .callout-title {
+  align-items: center;
+  color: var(--text-muted);
+  font-size: 0.78em;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  padding: 0;
+  margin: 0 !important;
+}
+
+.callout[data-callout="audio-transcript"] .callout-icon {
+  color: var(--text-muted);
+  width: 0.9em;
+  height: 0.9em;
+}
+
+/* Agent-directed recordings are the only collapsed audio-transcript callouts. */
+.callout[data-callout="audio-transcript"].is-collapsible {
+  --callout-icon: lucide-bot;
+  background: linear-gradient(135deg, rgba(32, 117, 255, .10), rgba(12, 212, 255, .055)) !important;
+  border-left-color: rgba(33, 157, 255, .62);
+  box-shadow: 0 0 .6rem rgba(0, 176, 255, .13);
+}
+
+.callout[data-callout="audio-transcript"].is-collapsible .callout-title,
+.callout[data-callout="audio-transcript"].is-collapsible .callout-icon,
+.callout[data-callout="audio-transcript"].is-collapsible .callout-fold {
+  color: color-mix(in srgb, rgb(33, 190, 255) 72%, var(--text-muted));
+}
+
+.callout[data-callout="audio-transcript"].is-collapsible > .callout-content {
+  background: transparent !important;
+}
+
+.callout[data-callout="audio-transcript"] .callout-content {
+  color: var(--text-normal);
+  padding: 0.3rem 0 0;
+}
+
+.callout[data-callout="audio-transcript"] .callout-content p,
+.callout[data-callout="audio-transcript"] .callout-content audio {
+  margin-block: 0.35rem !important;
+}
+
+.callout[data-callout="audio-transcript"] :is(.agent-audio-directive, .codex-audio-directive) {
+  color: var(--text-muted);
+  font-size: 0.94em;
+}
+
+.callout[data-callout="audio-transcript"] :is(.agent-audio-directive, .codex-audio-directive) a {
+  color: inherit;
+}
+
+/* === Morning coffee === */
+.callout[data-callout="coffee-talk"] {
+  --callout-color: 176, 122, 74;
+  --callout-icon: lucide-coffee;
+}
+
+/* === From Claude === */
+/* Claude's own voice in the vault: a warm orange note with the pixel crab. */
+.callout[data-callout="claude"] {
+  --callout-color: 217, 119, 87;
+  --callout-icon: lucide-circle;
+  background: linear-gradient(135deg, rgba(217, 119, 87, 0.16), rgba(217, 119, 87, 0.06));
+  border: 1px solid rgba(217, 119, 87, 0.35);
+  border-radius: 8px;
+}
+
+.callout[data-callout="claude"] > .callout-title,
+.callout[data-callout="claude"] > .callout-title > .callout-title-inner {
+  color: rgb(217, 119, 87) !important;
+}
+
+.callout[data-callout="claude"] > .callout-title > .callout-icon > svg {
+  display: none;
+}
+
+.callout[data-callout="claude"] > .callout-title > .callout-icon {
+  width: 20px;
+  height: 12px;
+  align-self: center;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAkCAYAAADVeVmEAAAAZklEQVR42u3XMQ6AIAxAUS4CHsujeFZOo5ubSQeMjX0/6cJA8qZCa1Lt5rGfmQYYGBgYOALeRr9nFSZyJzAwMHBNcLb18/q6AgYGBv7FG9vnARgYGDgz+AkfOf/qTmBgYOCaYClfF2SYP2Ofzv3/AAAAAElFTkSuQmCC") center / contain no-repeat;
+  image-rendering: pixelated;
+}
+
+.callout[data-callout="claude"] {
+  --callout-content-background: transparent;
+}
+
+.callout[data-callout="claude"] > .callout-content {
+  background: transparent !important;
+}
+
+/* === Agent sections: Agent Review, Task Updates, Processed Agent Instructions === */
+/* Quiet labels instead of full headings, so agent bookkeeping reads as a footer. */
+h2[data-heading="Agent Review"],
+h2[data-heading="Processed Agent Instructions"],
+h3:has(> a.tag[href="#agent/update"]) {
+  font-size: var(--font-ui-small) !important;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-faint) !important;
+  border-bottom: 1px solid var(--background-modifier-border);
+  padding-bottom: 4px;
+}
+
+h3 > a.tag[href="#agent/update"] {
+  display: none;
+}
+
+/* The logs themselves sit in one muted panel. */
+.el-h2:has(> h2[data-heading="Agent Review"]) + .el-ul > ul,
+.el-h3:has(> h3 > a.tag[href="#agent/update"]) + .el-ul > ul {
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 10px;
+  padding: 10px 14px 10px 30px;
+  font-size: var(--font-smaller);
+  color: var(--text-muted);
+}
+
+.el-h2:has(> h2[data-heading="Agent Review"]) + .el-ul > ul > li + li {
+  border-top: 1px dashed var(--background-modifier-border);
+  margin-top: 6px;
+  padding-top: 6px;
+}
+
+.markdown-rendered a.tag[href^="#agent/"] {
+  background: transparent;
+  border: 1px solid var(--background-modifier-border-hover);
+  color: var(--text-faint);
+  font-size: 0.8em;
+}
+
+/* Unresolved items wait on the owner, so they get a warm edge. */
+.markdown-rendered li:has(> a.tag[href="#agent/unresolved"]) {
+  box-shadow: inset 3px 0 0 rgb(251, 186, 55);
+  padding-left: 10px;
+}
+
+/* Live Preview: agent log lines stay small and muted. */
+.markdown-source-view .HyperMD-list-line:has([class*="cm-tag-agent"]) {
+  font-size: var(--font-smaller);
+  color: var(--text-muted);
+}
+
+/* Topic headings in the processed-instructions history stay small too. */
+.el-h2:has(> h2[data-heading="Processed Agent Instructions"]) ~ .el-h3 > h3 {
+  font-size: var(--font-ui-medium) !important;
+  font-weight: 600;
+  color: var(--text-muted) !important;
+}
+
+/* obsidian:// links in agent logs open inside the vault; drop the external-link arrow. */
+.markdown-rendered a.external-link[href^="obsidian://"] {
+  background-image: none;
+  padding-right: 0;
+}

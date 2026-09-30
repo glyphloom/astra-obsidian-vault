@@ -1,0 +1,27 @@
+[
+  {
+    "name": "spotify track",
+    "metadata": {"adapter": "spotify", "identity": {"kind": "spotify_track", "id": "abc", "canonical_url": "https://open.spotify.com/track/abc"}, "title": "Track"},
+    "expected_type": "music",
+    "expected_first": "Continuum/Media/Music"
+  },
+  {
+    "name": "book isbn",
+    "metadata": {"adapter": "openlibrary", "identity": {"kind": "isbn", "id": "9780140449136", "canonical_url": "https://openlibrary.org/isbn/9780140449136"}, "title": "The Odyssey"},
+    "expected_type": "book",
+    "expected_first": "Continuum/Media/Reading"
+  },
+  {
+    "name": "paper doi",
+    "metadata": {"adapter": "crossref", "identity": {"kind": "doi", "id": "10.1000/test", "canonical_url": "https://doi.org/10.1000/test"}, "title": "Paper"},
+    "expected_type": "paper",
+    "expected_first": "Infinity"
+  },
+  {
+    "name": "fleeting text",
+    "metadata": {"adapter": "clipboard", "identity": {}, "title": ""},
+    "durable": false,
+    "expected_type": "fleeting",
+    "expected_first": "Continuum/Time/Daily/<today>#Notes"
+  }
+]

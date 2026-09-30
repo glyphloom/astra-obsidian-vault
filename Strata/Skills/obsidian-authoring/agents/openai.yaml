@@ -1,0 +1,4 @@
+interface:
+  display_name: "Obsidian Authoring"
+  short_description: "Shape spoken thoughts into vault notes"
+  default_prompt: "Use $obsidian-authoring to turn my words into a clear Obsidian note without adding outside context."

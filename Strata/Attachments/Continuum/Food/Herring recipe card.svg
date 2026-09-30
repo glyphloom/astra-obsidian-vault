@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#5c6b73"/>
+  <g transform="rotate(-3 300 200)">
+    <rect x="110" y="40" width="380" height="320" rx="10" fill="#f6efd9" stroke="#c9bfa3" stroke-width="3"/>
+    <text x="300" y="92" text-anchor="middle" font-family="Georgia, serif" font-size="30" fill="#2b3a55">Thursday Herring</text>
+    <text x="300" y="120" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="16" fill="#8a3b2e">after the Varda way, 1683</text>
+    <line x1="150" y1="138" x2="450" y2="138" stroke="#c9bfa3" stroke-width="2"/>
+    <g font-family="Georgia, serif" font-size="17" fill="#333">
+      <text x="150" y="172">12 salted herring fillets</text>
+      <text x="150" y="200">2 red onions, sliced thin</text>
+      <text x="150" y="228">1 apple, grated</text>
+      <text x="150" y="256">300 g sour cream, dill</text>
+      <text x="150" y="284">pepper until someone objects</text>
+    </g>
+    <text x="300" y="332" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#6d6d6d">Serve cold. Served always.</text>
+    <path d="M425 300 Q445 285 465 300 Q445 315 425 300 Z M465 300 L478 290 L478 310 Z" fill="#8aa0ad"/>
+  </g>
+</svg>

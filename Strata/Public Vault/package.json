@@ -1,0 +1,12 @@
+{
+  "name": "public-vault-exporter",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "export": "node export-public-vault.mjs",
+    "check": "node export-public-vault.mjs --check",
+    "audit": "node audit-stage-two.mjs",
+    "test": "node --test tests/export-public-vault.test.mjs",
+    "validate": "node validate-public-vault.mjs"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "public-vault-export",
+  "name": "Public Vault",
+  "version": "1.1.0",
+  "minAppVersion": "1.8.0",
+  "description": "Exports this vault's public copy, and in that copy offers to install the community plugins and theme it uses.",
+  "author": "glyphloom",
+  "authorUrl": "https://github.com/glyphloom",
+  "isDesktopOnly": true
+}

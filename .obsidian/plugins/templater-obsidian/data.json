@@ -1,0 +1,37 @@
+{
+  "data_version": 2,
+  "command_timeout": 5,
+  "templates_folder": "Strata/Templates",
+  "trigger_on_file_creation_mode": "folder",
+  "auto_jump_to_cursor": false,
+  "jump_to_cursor_after_file_name": false,
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "intellisense_render": "1",
+  "folder_templates": [
+    {
+      "folder": "Underwork",
+      "template": "Strata/Templates/Projects/Project Template.md"
+    },
+    {
+      "folder": "Continuum",
+      "template": "Strata/Templates/Areas/Areas Template.md"
+    },
+    {
+      "folder": "Matter",
+      "template": "Strata/Templates/Resources/Resources Template.md"
+    },
+    {
+      "folder": "Entropy",
+      "template": "Strata/Templates/MOCs/MOCs Template.md"
+    },
+    {
+      "folder": "Infinity",
+      "template": "Strata/Templates/Zettel Note.md"
+    },
+    {
+      "folder": "/",
+      "template": "Strata/Templates/Default Note.md"
+    }
+  ]
+}

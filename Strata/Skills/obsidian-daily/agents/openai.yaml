@@ -1,0 +1,4 @@
+interface:
+  display_name: "Obsidian Daily"
+  short_description: "Maintain daily notes, audio, and tasks"
+  default_prompt: "Use $obsidian-daily to maintain my daily notes and reconcile clear task intent."

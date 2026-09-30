@@ -1,0 +1,114 @@
+[
+  {
+    "id": "durable-research-depth",
+    "input": {
+      "kind": "durable_media_or_knowledge",
+      "steered": false
+    },
+    "expected": {
+      "research_beyond_metadata": true,
+      "source_roles": ["primary", "contextual", "relational_when_needed"],
+      "vault_probe_passes": ["exact_entities", "conceptual_relationships"],
+      "connections_require_relationship_statements": true
+    }
+  },
+  {
+    "id": "banner-wide-composition",
+    "input": {
+      "kind": "banner",
+      "source_artwork_aspect": "square"
+    },
+    "expected": {
+      "preferred_aspects": ["16:9", "16:10"],
+      "square_art_role": "representative_image",
+      "fallback": "wide imagery from concrete topics materially covered by the note",
+      "reject_centered_square_on_blurred_wide_canvas": true
+    }
+  },
+  {
+    "id": "subject-first-commentary-routing",
+    "input": {
+      "capture_kind": "essay_review_interview_or_explainer",
+      "captured_work": "An Essay About Tidewater Ambient",
+      "underlying_subject": "Tidewater Ambient",
+      "subject_domain": "music"
+    },
+    "expected": {
+      "note_filename": "Tidewater Ambient.md",
+      "route": "Continuum/Media/Music",
+      "captured_work_role": "contextual_evidence",
+      "require_explicit_subject_resolution": true,
+      "preserve_captured_work_when_independently_cultural_or_technical": true,
+      "forbid_cyrillic_generated_paths": true,
+      "forbid_reused_banner_and_representative_source": true
+    }
+  },
+  {
+    "id": "atomic-save-granularity",
+    "input": {
+      "capture_kind": "durable_source_or_topic",
+      "emerging_concern": "separate concept, argument, mechanism, lineage, technique, or question"
+    },
+    "expected": {
+      "keep_parent_when": "one clear purpose",
+      "extract_only_if": ["independent_title", "substantive_account", "two_concrete_connections_or_future_uses"],
+      "preserve_owner_prose_in_parent": true,
+      "forbid": ["one_paragraph_stubs", "decorative_mocs", "word_count_based_splitting"]
+    }
+  },
+  {
+    "id": "clipboard-conversation-normalization",
+    "input": {
+      "kind": "personal_clipboard_fragment",
+      "shape": ["chat_handle", "timestamp", "broken_line_wraps"]
+    },
+    "expected": {
+      "output": "lightly_copy_edited_journal_entry",
+      "preserve": ["voice", "thought_order", "attitude", "profanity", "ambiguity", "repetitions", "memorable_phrasing", "direct_quotations"],
+      "edit_only": ["handles", "timestamps", "broken_line_wraps", "casing", "punctuation", "obvious_grammar", "paragraphing"],
+      "forbid": ["summarization", "interpretation", "sanitization", "agent_voice_substitution"]
+    }
+  },
+  {
+    "id": "explicit-related-work-completeness",
+    "input": {
+      "request": "save the video and all referenced works as separate atomic notes",
+      "visuals": "non-generated unique pictures and banners"
+    },
+    "expected": {
+      "scope_manifest": "required",
+      "atomic_notes": "substantive_not_mentions",
+      "minimum_agent_words": 450,
+      "minimum_agent_sections": 3,
+      "asset_manifest": "batch_source_unique_and_visually_reviewed",
+      "generated_visuals": "forbidden_when_requested"
+    }
+  },
+  {
+    "id": "durable-visual-source-pass",
+    "input": {
+      "kind": "multi_note_durable_save",
+      "first_banner_candidate": "fails_geometry"
+    },
+    "expected": {
+      "web_source_pass_for_each_role": true,
+      "representative_media_frame_per_note": true,
+      "banner_and_representative_source_distinct": true,
+      "generated_art_requires_explicit_user_approval_after_exhausted_web_pass": true,
+      "forbid": ["banner_only_commit", "generated_fallback_after_first_candidate_failure"]
+    }
+  },
+  {
+    "id": "spoken-durable-subject-augmentation",
+    "input": {
+      "source": "reviewed_daily_audio_transcript",
+      "request": "make a lasting note about an external game"
+    },
+    "expected": {
+      "preserve_spoken_perspective_under_first_h2": true,
+      "handoff": "save",
+      "require": ["identity_resolution", "research_augmentation", "defensible_visuals", "connections", "transactional_validation", "receipt"],
+      "forbid": ["authoring_only_note", "dangling_link_only"]
+    }
+  }
+]

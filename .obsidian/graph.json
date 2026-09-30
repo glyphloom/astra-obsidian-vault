@@ -1,0 +1,93 @@
+{
+  "collapse-filter": false,
+  "search": "-tag:#type/hide -path:Strata -file:canvas -file:base  ",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:Artifacts  ",
+      "color": {
+        "a": 1,
+        "rgb": 0
+      }
+    },
+    {
+      "query": "tag:#job",
+      "color": {
+        "a": 1,
+        "rgb": 16586707
+      }
+    },
+    {
+      "query": "tag:#media OR tag:#art  ",
+      "color": {
+        "a": 1,
+        "rgb": 16061460
+      }
+    },
+    {
+      "query": "tag:#learning OR tag:#history",
+      "color": {
+        "a": 1,
+        "rgb": 16497207
+      }
+    },
+    {
+      "query": "tag:#math OR tag:#physics OR tag:#philosophy  ",
+      "color": {
+        "a": 1,
+        "rgb": 4382975
+      }
+    },
+    {
+      "query": "tag:#tech  ",
+      "color": {
+        "a": 1,
+        "rgb": 4345855
+      }
+    },
+    {
+      "query": "tag:#life",
+      "color": {
+        "a": 1,
+        "rgb": 3407718
+      }
+    },
+    {
+      "query": "tag:#time  ",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
+    },
+    {
+      "query": "tag:#task",
+      "color": {
+        "a": 1,
+        "rgb": 13214338
+      }
+    },
+    {
+      "query": "tag:#type",
+      "color": {
+        "a": 1,
+        "rgb": 16745503
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0.1,
+  "nodeSizeMultiplier": 1.09798616534642,
+  "lineSizeMultiplier": 0.506970404984424,
+  "collapse-forces": false,
+  "centerStrength": 0.392229879946643,
+  "repelStrength": 12.289142453829,
+  "linkStrength": 0.729686108637578,
+  "linkDistance": 205,
+  "scale": 0.13393567504525636,
+  "close": true
+}

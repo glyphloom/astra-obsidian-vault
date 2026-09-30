@@ -1,0 +1,23 @@
+filters:
+  and:
+    - file.inFolder("Continuum/People")
+views:
+  - type: table
+    name: Everyone
+    groupBy:
+      property: standing
+      direction: ASC
+    order:
+      - file.name
+      - standing
+      - last-seen
+      - found-in
+    sort:
+      - property: last-seen
+        direction: DESC
+  - type: cards
+    name: Faces
+    order:
+      - file.name
+      - standing
+      - found-in

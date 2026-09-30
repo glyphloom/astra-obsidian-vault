@@ -1,0 +1,98 @@
+/* Task metadata: in Tasks lists, a task reads as three lines: description, then recurrence and dates as pills, then edit, postpone, and the source link. */
+
+.plugin-tasks-list-item > .tasks-list-text {
+	display: inline-block;
+	width: 100%;
+	vertical-align: top;
+}
+
+.plugin-tasks-list-item .task-description {
+	display: block;
+}
+
+.plugin-tasks-list-item :is(.task-recurring, .task-start, .task-scheduled, .task-due, .task-done, .task-cancelled, .task-created) {
+	display: inline-block;
+	margin: 0.15em 0.35em 0 0;
+	padding: 0 0.5em;
+	border-radius: 999px;
+	font-size: 0.78em;
+	line-height: 1.6;
+	vertical-align: 0.08em;
+	white-space: nowrap;
+	color: var(--text-muted);
+	background-color: var(--background-modifier-hover);
+}
+
+.plugin-tasks-list-item .task-recurring {
+	color: var(--color-accent);
+	background-color: hsla(var(--accent-h), var(--accent-s), var(--accent-l), 0.14);
+}
+
+.plugin-tasks-list-item .task-due[data-task-due="today"] {
+	color: var(--color-orange);
+	background-color: rgba(var(--color-orange-rgb), 0.14);
+}
+
+.plugin-tasks-list-item .task-due[data-task-due^="past"] {
+	color: var(--color-red);
+	background-color: rgba(var(--color-red-rgb), 0.14);
+}
+
+.plugin-tasks-list-item :is(.task-done, .task-cancelled) {
+	color: var(--text-faint);
+}
+
+/* Lucide icons from Astra Vault's Task Lucide Icons feature, in place of Tasks' emoji. */
+.plugin-tasks-list-item .task-lucide-icon {
+	display: inline-flex;
+	margin-right: 0.3em;
+	vertical-align: -0.12em;
+}
+
+.plugin-tasks-list-item .task-lucide-icon svg,
+.plugin-tasks-list-item :is(.tasks-edit, .tasks-postpone) svg {
+	width: 1em;
+	height: 1em;
+	stroke-width: 2.25px;
+}
+
+.plugin-tasks-list-item :is(.tasks-edit, .tasks-postpone):has(svg)::after {
+	content: none;
+}
+
+.plugin-tasks-list-item :is(.tasks-edit, .tasks-postpone) {
+	color: var(--text-faint);
+}
+
+.plugin-tasks-list-item :is(.tasks-edit, .tasks-postpone):hover {
+	color: var(--text-accent);
+}
+
+/* Block IDs are anchors, not reading material. */
+.plugin-tasks-list-item .task-block-link {
+	display: none;
+}
+
+.plugin-tasks-list-item > .task-extras {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 0.45em;
+	margin-top: 0.1em;
+	font-size: 0.85em;
+}
+
+.plugin-tasks-list-item > .task-extras :is(.tasks-edit, .tasks-postpone) {
+	order: -1;
+	margin-left: 0;
+}
+
+.plugin-tasks-list-item > .task-extras .tasks-backlink {
+	color: var(--text-faint);
+}
+
+/* The #task marker is plumbing for Tasks: show it only in source mode and on the line being edited. */
+.markdown-rendered a.tag[href="#task"],
+.markdown-source-view.is-live-preview .cm-line:not(.cm-active) .cm-tag-task {
+	display: none;
+}

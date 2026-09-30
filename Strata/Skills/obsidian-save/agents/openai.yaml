@@ -1,0 +1,4 @@
+interface:
+  display_name: "Obsidian Save"
+  short_description: "Research, connect, and file captures into Obsidian"
+  default_prompt: "Use $obsidian-save to research this capture or Spotify item in depth, connect it to my vault, and file it safely."

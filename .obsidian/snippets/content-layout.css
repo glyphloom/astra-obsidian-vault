@@ -1,0 +1,275 @@
+/* === Content cleanup === */
+
+a.tag:empty {
+	display: none;
+}
+
+/* === Headings === */
+
+.cm-s-obsidian pre.HyperMD-header-1,
+.markdown-preview-view h1 {
+	padding-top: 0.67em !important;
+	margin: 1.5em 0 0.5em !important;
+}
+
+.cm-s-obsidian pre.HyperMD-header-2,
+.markdown-preview-view h2 {
+	margin-block-start: 0.83em !important;
+	margin: 1.5em 0 0.5em !important;
+}
+
+.cm-s-obsidian pre.HyperMD-header-3,
+.markdown-preview-view h3 {
+	margin-block-start: 1em !important;
+	margin: 1.25em 0 0.25em !important;
+}
+
+.cm-s-obsidian pre.HyperMD-header-4,
+.markdown-preview-view h4 {
+	margin-block-start: 1.33em !important;
+	margin: 1.25em 0 0.25em !important;
+}
+
+.cm-s-obsidian pre.HyperMD-header-5,
+.markdown-preview-view h5 {
+	margin-block-start: 1.67em !important;
+	margin: 1em 0 0.25em !important;
+}
+
+.cm-s-obsidian pre.HyperMD-header-6,
+.markdown-preview-view h6 {
+	margin-block-start: 2.33em !important;
+	margin: 1em 0 0.25em !important;
+}
+
+/* Canvas cards already provide their own top inset. Obsidian wraps rendered
+   blocks in .el-h* elements and places a pusher before the first block. */
+.canvas-node-content .markdown-preview-section
+	> .markdown-preview-pusher
+	+ :is(.el-h1, .el-h2, .el-h3, .el-h4, .el-h5, .el-h6)
+	> :is(h1, h2, h3, h4, h5, h6),
+.canvas-node-content .markdown-preview-sizer > :is(h1, h2, h3, h4, h5, h6):first-child,
+.canvas-node-content .markdown-source-view.mod-cm6 .cm-content > .HyperMD-header:first-child {
+	margin-top: 0 !important;
+	padding-top: 0 !important;
+}
+
+/* === Horizontal rules === */
+
+:root {
+	--custom-spacing-size: 0px;
+}
+
+.markdown-rendered hr {
+	margin-block: calc(var(--custom-spacing-size) * 1.5 - 1px);
+}
+
+/* === Properties === */
+
+.metadata-container {
+	margin-block-end: 0rem;
+}
+
+.multi-select-pill-content {
+	padding: 6px;
+}
+
+span.custom-date {
+	padding: 2px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+div.metadata-input-longtext {
+	padding: 2px !important;
+	padding-left: 6px !important;
+	padding-right: 6px !important;
+}
+
+/* === Callouts === */
+
+.callout-content p {
+	margin-top: 0 !important;
+	margin-bottom: 1rem !important;
+}
+
+div.callout {
+	margin-top: 28px !important;
+	margin-bottom: 28px;
+	padding-inline-end: 24px;
+}
+
+div.callout-title {
+	margin-top: 16px !important;
+	margin-bottom: 16px;
+}
+
+/* Keep rendered inline tags level with surrounding text, including headings. */
+.markdown-rendered a.tag {
+	position: relative;
+	top: -0.08em;
+}
+
+/* Give callout-title tags the same alignment and a subtle pill outline. */
+.callout-title-inner a.tag {
+	display: inline-flex;
+	align-items: center;
+	line-height: 1.1;
+	padding-block: 0.08em 0.12em;
+	border: 1px solid var(--background-modifier-border-hover);
+	border-radius: 999px;
+	text-decoration: none;
+}
+
+.callout-title-inner a.tag:hover {
+	border-color: var(--text-accent);
+}
+
+/* === Tasks and Dataview results === */
+
+.block-language-tasks p {
+	margin-block-start: 0;
+	margin-block-end: 0;
+}
+
+.block-language-tasks ul {
+	margin-block-start: 0;
+	margin-block-end: 0;
+}
+
+/* Minimal-theme treatment for Tasks query toolbars: the Reminders panel gets a boxed
+   toolbar, and every query gets theme-colored inputs, so Moods palettes apply. */
+.block-language-tasks .plugin-tasks-toolbar {
+	align-items: center;
+	gap: var(--size-4-2);
+}
+
+.task-dashboard .block-language-tasks .plugin-tasks-toolbar {
+	align-items: center;
+	gap: var(--size-4-2);
+	margin: var(--size-4-3) 0 var(--size-4-5);
+	padding: var(--size-4-2);
+	background: var(--background-secondary);
+	border: 1px solid var(--background-modifier-border);
+	border-radius: var(--radius-m);
+}
+
+.block-language-tasks .plugin-tasks-toolbar label {
+	position: relative;
+	flex: 1 1 18rem;
+	max-width: 26rem;
+}
+
+.block-language-tasks .plugin-tasks-toolbar label svg {
+	left: var(--size-4-2);
+	width: var(--icon-s);
+	height: var(--icon-s);
+	color: var(--text-muted);
+	transform: none;
+}
+
+.block-language-tasks .plugin-tasks-toolbar input {
+	width: 100%;
+	height: var(--input-height);
+	padding-inline: calc(var(--icon-s) + var(--size-4-4)) var(--size-4-2);
+	color: var(--text-normal);
+	background: var(--background-primary);
+	border: 1px solid var(--background-modifier-border);
+	border-radius: var(--input-radius);
+	box-shadow: none;
+}
+
+.block-language-tasks .plugin-tasks-toolbar input:focus {
+	border-color: var(--background-modifier-border-focus);
+	box-shadow: 0 0 0 2px var(--background-modifier-border-focus);
+}
+
+.block-language-tasks .plugin-tasks-toolbar button {
+	display: grid;
+	place-items: center;
+	width: var(--input-height);
+	height: var(--input-height);
+	padding: 0;
+	color: var(--text-muted);
+	background: var(--background-primary);
+	border: 1px solid var(--background-modifier-border);
+	border-radius: var(--input-radius);
+	box-shadow: none;
+}
+
+.block-language-tasks .plugin-tasks-toolbar button:hover {
+	color: var(--text-normal);
+	background: var(--background-modifier-hover);
+}
+
+.task-dashboard .block-language-tasks .tasks-group-heading {
+	margin: var(--size-4-5) 0 var(--size-4-2);
+	padding-bottom: var(--size-4-1);
+	font-size: var(--font-ui-medium);
+	font-weight: var(--font-semibold);
+	line-height: var(--line-height-tight);
+	border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.task-dashboard .block-language-tasks .tasks-group-heading a {
+	color: var(--text-normal);
+	text-decoration: none;
+}
+
+.task-dashboard .block-language-tasks li.task-list-item {
+	padding-block: var(--size-2-1);
+}
+
+.task-dashboard .block-language-tasks .tasks-count {
+	padding-left: 0;
+	color: var(--text-faint);
+	font-size: var(--font-ui-smaller);
+}
+
+/* Keep dedicated panel-task-list notes visually task-only in a side panel. */
+.workspace-split.mod-sidedock
+	.workspace-leaf-content[data-type="markdown"]:has(
+		> .view-content .panel-task-list
+	)
+	> .view-header,
+.workspace-split.mod-sidedock
+	.panel-task-list
+	:is(
+		.iconic-title-wrapper,
+		.inline-title,
+		.metadata-container,
+		.frontmatter-container
+	) {
+	display: none !important;
+}
+
+.tasks-count {
+	margin-block-start: 1.75rem;
+}
+
+.block-language-dataview ul {
+	margin-block-start: 1rem;
+	margin-block-end: 1rem;
+}
+
+/* The Reminders dashboard uses #task as a query marker, not visible content. */
+.task-dashboard .block-language-dataview a.tag[href="#task"] {
+	display: none;
+}
+
+/* Keep completed tasks visible without strikethrough, but fade them out. */
+body {
+	--checklist-done-decoration: none !important;
+}
+
+.markdown-rendered li.task-list-item:is([data-task="x"], [data-task="X"]),
+.block-language-tasks li.task-list-item[data-task-status-type="DONE"],
+.markdown-source-view.mod-cm6 .HyperMD-task-line:is([data-task="x"], [data-task="X"]) {
+	opacity: 0.55;
+	text-decoration: none !important;
+}
+
+/* Chromium 150 misroutes native video controls inside contained panes. */
+.workspace-leaf:has(video) {
+	contain: none !important;
+}

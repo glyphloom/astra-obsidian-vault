@@ -1,0 +1,554 @@
+{
+  "biggerIcons": "mobile",
+  "clickableIcons": "desktop",
+  "showAllFileIcons": false,
+  "showAllFolderIcons": false,
+  "minimalFolderIcons": true,
+  "showMarkdownTabIcons": true,
+  "showTitleIcons": true,
+  "showTagPillIcons": true,
+  "showMenuActions": true,
+  "showSuggestionIcons": false,
+  "showQuickSwitcherIcons": false,
+  "showMoveFileIcons": true,
+  "showItemName": "desktop",
+  "useSearchKeywords": "on",
+  "maxSearchResults": 50,
+  "colorPicker1": "rgb",
+  "colorPicker2": "list",
+  "uncolorHover": false,
+  "uncolorDrag": false,
+  "uncolorSelect": false,
+  "uncolorQuick": false,
+  "maxBackups": 5,
+  "fileIcons": {
+    "AGENTS.md": {
+      "icon": "lucide-brain-cog",
+      "color": "#e2188e"
+    },
+    "Artifacts": {
+      "icon": "lucide-gem",
+      "color": "#424fff"
+    },
+    "Continuum": {
+      "icon": "lucide-eclipse",
+      "color": "#f2f53d"
+    },
+    "Entropy": {
+      "icon": "lucide-atom",
+      "color": "yellow"
+    },
+    "Infinity": {
+      "icon": "♾️",
+      "color": "#07cf1f"
+    },
+    "Matter": {
+      "icon": "lucide-brick-wall",
+      "color": "red"
+    },
+    "Strata": {
+      "icon": "lucide-circle-off",
+      "color": "#ededed"
+    },
+    "Underwork": {
+      "icon": "lucide-network",
+      "color": "#3fd9d7"
+    },
+    "LICENSES": {
+      "icon": "lucide-scale",
+      "color": "#c6c2ff"
+    }
+  },
+  "fileRules": [
+    {
+      "id": "M9cEK",
+      "name": "Main",
+      "match": "any",
+      "conditions": [
+        {
+          "source": "tags",
+          "operator": "anyContain",
+          "value": "type/hub"
+        },
+        {
+          "source": "tags",
+          "operator": "anyContain",
+          "value": "type/MOC"
+        },
+        {
+          "source": "tags",
+          "operator": "anyContain",
+          "value": "type/daemon"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-route",
+      "color": "#ff928a"
+    },
+    {
+      "id": "fS8a2",
+      "name": "Legal",
+      "match": "any",
+      "conditions": [
+        {
+          "source": "name",
+          "operator": "is",
+          "value": "LICENSE"
+        },
+        {
+          "source": "name",
+          "operator": "is",
+          "value": "NOTICE"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-scale",
+      "color": "#c6c2ff"
+    },
+    {
+      "id": "ihxZl",
+      "name": "Readme",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "name",
+          "operator": "is",
+          "value": "README"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-star",
+      "color": "#fcff33"
+    },
+    {
+      "id": "sD60P",
+      "name": "Images",
+      "match": "any",
+      "conditions": [
+        {
+          "source": "extension",
+          "operator": "contains",
+          "value": "png"
+        },
+        {
+          "source": "extension",
+          "operator": "contains",
+          "value": "jpg"
+        },
+        {
+          "source": "extension",
+          "operator": "contains",
+          "value": "jpeg"
+        },
+        {
+          "source": "extension",
+          "operator": "contains",
+          "value": "svg"
+        },
+        {
+          "source": "extension",
+          "operator": "contains",
+          "value": "gif"
+        },
+        {
+          "source": "extension",
+          "operator": "contains",
+          "value": "webp"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-image",
+      "color": "red"
+    },
+    {
+      "id": "91u5T",
+      "name": "Documents",
+      "match": "any",
+      "conditions": [
+        {
+          "source": "extension",
+          "operator": "contains",
+          "value": "pdf"
+        },
+        {
+          "source": "extension",
+          "operator": "contains",
+          "value": "doc"
+        },
+        {
+          "source": "extension",
+          "operator": "contains",
+          "value": "epub"
+        },
+        {
+          "source": "extension",
+          "operator": "contains",
+          "value": "fb2"
+        },
+        {
+          "source": "extension",
+          "operator": "contains",
+          "value": "docx"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-file-text",
+      "color": "blue"
+    },
+    {
+      "id": "r3BWh",
+      "name": "Code",
+      "match": "any",
+      "conditions": [
+        {
+          "source": "extension",
+          "operator": "contains",
+          "value": "js"
+        },
+        {
+          "source": "extension",
+          "operator": "contains",
+          "value": "ts"
+        },
+        {
+          "source": "extension",
+          "operator": "contains",
+          "value": "css"
+        },
+        {
+          "source": "extension",
+          "operator": "contains",
+          "value": "py"
+        },
+        {
+          "source": "extension",
+          "operator": "contains",
+          "value": "sh"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-code-2",
+      "color": "#0c83df"
+    },
+    {
+      "id": "Nk1ae",
+      "name": "Video",
+      "match": "any",
+      "conditions": [
+        {
+          "source": "extension",
+          "operator": "contains",
+          "value": "mp4"
+        },
+        {
+          "source": "extension",
+          "operator": "contains",
+          "value": "mov"
+        },
+        {
+          "source": "extension",
+          "operator": "contains",
+          "value": "gif"
+        },
+        {
+          "source": "extension",
+          "operator": "contains"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-film",
+      "color": "#dda95f"
+    },
+    {
+      "id": "4G1M1",
+      "name": "Audio",
+      "match": "any",
+      "conditions": [
+        {
+          "source": "extension",
+          "operator": "contains",
+          "value": "mp3"
+        },
+        {
+          "source": "extension",
+          "operator": "contains",
+          "value": "wav"
+        },
+        {
+          "source": "extension",
+          "operator": "contains",
+          "value": "m4a"
+        },
+        {
+          "source": "extension",
+          "operator": "contains",
+          "value": "ogg"
+        },
+        {
+          "source": "extension",
+          "operator": "contains",
+          "value": "aac"
+        },
+        {
+          "source": "extension",
+          "operator": "contains",
+          "value": "flac"
+        },
+        {
+          "source": "extension",
+          "operator": "contains",
+          "value": "webm"
+        },
+        {
+          "source": "extension",
+          "operator": "contains",
+          "value": "ac3"
+        },
+        {
+          "source": "extension",
+          "operator": "contains",
+          "value": "aiff"
+        },
+        {
+          "source": "extension",
+          "operator": "contains",
+          "value": "aif"
+        },
+        {
+          "source": "extension",
+          "operator": "contains",
+          "value": "oga"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-audio-lines",
+      "color": "#6aecaf"
+    },
+    {
+      "id": "lO0lQ",
+      "name": "Meta",
+      "match": "any",
+      "conditions": [
+        {
+          "source": "name",
+          "operator": "contains",
+          "value": "sortspec"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-earth",
+      "color": "#2cce3f"
+    },
+    {
+      "id": "45P5k",
+      "name": "Special",
+      "match": "any",
+      "conditions": [
+        {
+          "source": "extension",
+          "operator": "contains",
+          "value": "canvas"
+        },
+        {
+          "source": "extension",
+          "operator": "contains",
+          "value": "base"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-database",
+      "color": "#ab80c2"
+    },
+    {
+      "id": "Wmptw",
+      "name": "Obsidian",
+      "match": "any",
+      "conditions": [
+        {
+          "source": "name",
+          "operator": "contains",
+          "value": "Obsidian"
+        },
+        {
+          "source": "tags",
+          "operator": "anyContain",
+          "value": "obsidian"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-stone",
+      "color": "#6c26ed"
+    },
+    {
+      "id": "chyZF",
+      "name": "AI",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "tags",
+          "operator": "anyContain",
+          "value": "tech/ai"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-bot",
+      "color": "#5196f0"
+    },
+    {
+      "id": "LyN8m",
+      "name": "Media",
+      "match": "any",
+      "conditions": [
+        {
+          "source": "tags",
+          "operator": "anyContain",
+          "value": "media"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-hard-drive",
+      "color": "#676a44"
+    },
+    {
+      "id": "seODk",
+      "name": "Art",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "tags",
+          "operator": "anyContain",
+          "value": "art"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-palette",
+      "color": "#2e5744"
+    },
+    {
+      "id": "M093z",
+      "name": "Exact Sciences",
+      "match": "any",
+      "conditions": [
+        {
+          "source": "tags",
+          "operator": "anyContain",
+          "value": "physics"
+        },
+        {
+          "source": "tags",
+          "operator": "anyContain",
+          "value": "math"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-microscope",
+      "color": "#3c676d"
+    },
+    {
+      "id": "E0qFK",
+      "name": "Tech",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "tags",
+          "operator": "anyContain",
+          "value": "tech"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-cpu",
+      "color": "#3a477e"
+    },
+    {
+      "id": "2Y8DQ",
+      "name": "Time",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "tags",
+          "operator": "anyContain",
+          "value": "time"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-hourglass",
+      "color": "#766237"
+    },
+    {
+      "id": "eK7nS",
+      "name": "Life",
+      "match": "any",
+      "conditions": [
+        {
+          "source": "tags",
+          "operator": "anyContain",
+          "value": "life"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-dna",
+      "color": "#706f71"
+    },
+    {
+      "id": "0x1Qd",
+      "name": "Natural Sciences",
+      "match": "any",
+      "conditions": [
+        {
+          "source": "tags",
+          "operator": "anyContain",
+          "value": "philosophy"
+        },
+        {
+          "source": "tags",
+          "operator": "anyContain",
+          "value": "history"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-omega",
+      "color": "#4c7048"
+    },
+    {
+      "id": "xv7rK",
+      "name": "Learning",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "tags",
+          "operator": "anyContain",
+          "value": "learning"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-book-open-text",
+      "color": "#713d56"
+    }
+  ],
+  "folderRules": [],
+  "biggerSearchResults": "mobile",
+  "rememberDeletedItems": false,
+  "appIcons": {},
+  "tabIcons": {
+    "claudian-view": {
+      "color": "#436ab6"
+    },
+    "grill-session": {
+      "color": "#ff8d0a"
+    },
+    "keep-the-rhythm": {
+      "color": "#bd78e2"
+    },
+    "vault-cards-today": {
+      "icon": "lucide-spade",
+      "color": "#38b27d"
+    }
+  },
+  "ribbonIcons": {
+    "obsidian-kanban:Create new board": {
+      "icon": "lucide-kanban-square"
+    }
+  },
+  "tagIcons": {},
+  "propertyIcons": {}
+}

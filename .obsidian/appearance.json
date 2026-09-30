@@ -1,0 +1,21 @@
+{
+  "accentColor": "#8a5df4",
+  "baseFontSize": 16,
+  "baseFontSizeAction": false,
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "agent-callouts",
+    "content-layout",
+    "media-banners",
+    "media-callouts",
+    "task-metadata",
+    "task-statuses",
+    "ui-typography",
+    "vault-fonts"
+  ],
+  "interfaceFontFamily": "Golos Text",
+  "monospaceFontFamily": "DM Mono",
+  "textFontFamily": "Golos Text",
+  "theme": "obsidian",
+  "translucency": false
+}

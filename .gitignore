@@ -1,0 +1,70 @@
+# Local Obsidian UI/runtime state; never part of the public export.
+.obsidian/workspace-mobile.json
+.obsidian/workspaces.json
+.obsidian/workspace.json.*
+.obsidian/workspace-mobile.json.*
+.obsidian/workspaces.json.*
+.DS_Store
+/.trash/
+# Local plugin state created while a copy is open as a vault.
+/.smart-env/
+/.claudian/
+# Agent pre-edit copies written by the daily helper and bulk edits.
+/Strata/.backups/
+# Community plugins and themes installed from the catalog in a local copy,
+# and the settings they write, may hold tokens; only the plugin files the
+# export publishes are tracked. The export appends one line per published file.
+.obsidian/themes/
+.obsidian/plugins/*/*
+!.obsidian/plugins/advanced-canvas/data.json
+!.obsidian/plugins/astra-vault/data.json
+!.obsidian/plugins/astra-vault/main.js
+!.obsidian/plugins/astra-vault/manifest.json
+!.obsidian/plugins/astra-vault/README.md
+!.obsidian/plugins/astra-vault/styles.css
+!.obsidian/plugins/better-paste/data.json
+!.obsidian/plugins/callout-manager/data.json
+!.obsidian/plugins/chronos/data.json
+!.obsidian/plugins/custom-sort/data.json
+!.obsidian/plugins/daily-intake/main.js
+!.obsidian/plugins/daily-intake/manifest.json
+!.obsidian/plugins/daily-intake/sql-wasm.wasm
+!.obsidian/plugins/daily-intake/sql.js-LICENSE.txt
+!.obsidian/plugins/daily-intake/styles.css
+!.obsidian/plugins/dataview-serializer/data.json
+!.obsidian/plugins/dataview/data.json
+!.obsidian/plugins/folder-notes/data.json
+!.obsidian/plugins/glossary-linker/data.json
+!.obsidian/plugins/homepage/data.json
+!.obsidian/plugins/iconic/data.json
+!.obsidian/plugins/jokertype/data.json
+!.obsidian/plugins/jokertype/LICENSE
+!.obsidian/plugins/jokertype/main.js
+!.obsidian/plugins/jokertype/manifest.json
+!.obsidian/plugins/jokertype/styles.css
+!.obsidian/plugins/journals/data.json
+!.obsidian/plugins/mermaid-tools/data.json
+!.obsidian/plugins/metadata-hider/data.json
+!.obsidian/plugins/moods/assets/
+!.obsidian/plugins/moods/assets/aeonaxsys.png
+!.obsidian/plugins/moods/assets/claude-crab.png
+!.obsidian/plugins/moods/assets/codex-pet.png
+!.obsidian/plugins/moods/data.json
+!.obsidian/plugins/moods/LICENSE.md
+!.obsidian/plugins/moods/main.js
+!.obsidian/plugins/moods/manifest.json
+!.obsidian/plugins/moods/NOTICE
+!.obsidian/plugins/moods/styles.css
+!.obsidian/plugins/multi-properties/data.json
+!.obsidian/plugins/note-refactor-obsidian/data.json
+!.obsidian/plugins/obsidian-linter/data.json
+!.obsidian/plugins/obsidian-minimal-settings/data.json
+!.obsidian/plugins/obsidian-style-settings/data.json
+!.obsidian/plugins/obsidian-tasks-plugin/data.json
+!.obsidian/plugins/omnisearch/data.json
+!.obsidian/plugins/open-tab-settings/data.json
+!.obsidian/plugins/public-vault-export/main.js
+!.obsidian/plugins/public-vault-export/manifest.json
+!.obsidian/plugins/simple-archiver/data.json
+!.obsidian/plugins/table-editor-obsidian/data.json
+!.obsidian/plugins/templater-obsidian/data.json

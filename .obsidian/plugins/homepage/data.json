@@ -1,0 +1,23 @@
+{
+  "homepages": {
+    "Public Vault Map": {
+      "alwaysApply": false,
+      "autoCreate": false,
+      "autoScroll": false,
+      "commands": [],
+      "hideReleaseNotes": false,
+      "kind": "File",
+      "manualOpenMode": "Keep open notes",
+      "openMode": "Keep open notes",
+      "openOnStartup": false,
+      "openWhenEmpty": false,
+      "pin": false,
+      "refreshDataview": false,
+      "revertView": true,
+      "value": "Entropy/Public Vault Map.md",
+      "view": "Reading view"
+    }
+  },
+  "separateMobile": false,
+  "version": 4
+}

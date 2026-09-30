@@ -1,0 +1,10 @@
+{
+  "id": "astra-vault",
+  "name": "Astra Vault",
+  "version": "1.1.0",
+  "minAppVersion": "1.8.7",
+  "description": "Small vault-specific features in one plugin: journal graph links, a tidier file menu, Tasks checkbox and icon tweaks, and Vault Cards flashcards.",
+  "author": "glyphloom",
+  "authorUrl": "https://github.com/glyphloom",
+  "isDesktopOnly": false
+}

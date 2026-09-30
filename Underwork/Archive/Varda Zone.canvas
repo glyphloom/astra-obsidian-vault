@@ -1,0 +1,167 @@
+{
+	"nodes": [
+		{
+			"id": "b7a4d0c500000001",
+			"type": "group",
+			"x": -560,
+			"y": -360,
+			"width": 1120,
+			"height": 1300,
+			"label": "Varda salt flats, 1679 to 1688: the incision zone",
+			"color": "1"
+		},
+		{
+			"id": "b7a4d0c500000002",
+			"type": "text",
+			"x": -140,
+			"y": -80,
+			"width": 280,
+			"height": 190,
+			"color": "1",
+			"text": "## Sheafbreak Centre\nThe brine pans. Two versions of the 2140s fail to agree here about what a fact is. Do not stand in it."
+		},
+		{
+			"id": "b7a4d0c500000003",
+			"type": "text",
+			"x": -510,
+			"y": -310,
+			"width": 290,
+			"height": 140,
+			"color": "4",
+			"text": "## Past Edge\nThe old town. Keeps collecting reasons why the war was always going to happen."
+		},
+		{
+			"id": "b7a4d0c500000004",
+			"type": "text",
+			"x": 220,
+			"y": -310,
+			"width": 290,
+			"height": 140,
+			"color": "6",
+			"text": "## Future Edge\nThe harbour road. Loses one fact a week. Last week it lost the harbour."
+		},
+		{
+			"id": "b7a4d0c500000005",
+			"type": "file",
+			"x": 220,
+			"y": 120,
+			"width": 300,
+			"height": 200,
+			"file": "Underwork/Archive/Ledger Zero.md"
+		},
+		{
+			"id": "b7a4d0c500000006",
+			"type": "file",
+			"x": -510,
+			"y": 120,
+			"width": 220,
+			"height": 200,
+			"file": "Strata/Attachments/Underwork/Archive/Archive seal.svg"
+		},
+		{
+			"id": "b7a4d0c500000007",
+			"type": "text",
+			"x": -150,
+			"y": 900,
+			"width": 300,
+			"height": 90,
+			"color": "2",
+			"text": "Back to the project: [[Clean Cut]]"
+		},
+		{
+			"id": "b7a4d0c500000008",
+			"type": "text",
+			"x": -490,
+			"y": 400,
+			"width": 230,
+			"height": 100,
+			"color": "5",
+			"text": "**Orrery cluster**\n40,000 continuations",
+			"styleAttributes": {
+				"shape": "database"
+			}
+		},
+		{
+			"id": "b7a4d0c500000009",
+			"type": "text",
+			"x": 270,
+			"y": 400,
+			"width": 220,
+			"height": 110,
+			"color": "1",
+			"text": "**Incision**\nQ1, pending steering",
+			"styleAttributes": {
+				"shape": "diamond"
+			}
+		},
+		{
+			"id": "b7a4d0c50000000a",
+			"type": "text",
+			"x": -160,
+			"y": 640,
+			"width": 320,
+			"height": 150,
+			"color": "4",
+			"text": "## Parish Register\n2,914 names, copied out of the zone one page a night: [[Varda Parish Register]]"
+		}
+	],
+	"edges": [
+		{
+			"id": "f7a4d0c500000001",
+			"fromNode": "b7a4d0c500000005",
+			"fromSide": "top",
+			"toNode": "b7a4d0c500000002",
+			"toSide": "right",
+			"label": "written beside"
+		},
+		{
+			"id": "f7a4d0c500000002",
+			"fromNode": "b7a4d0c500000003",
+			"fromSide": "bottom",
+			"toNode": "b7a4d0c500000002",
+			"toSide": "left",
+			"label": "justifies"
+		},
+		{
+			"id": "f7a4d0c500000003",
+			"fromNode": "b7a4d0c500000002",
+			"fromSide": "right",
+			"toNode": "b7a4d0c500000004",
+			"toSide": "bottom",
+			"label": "leaks facts",
+			"color": "6"
+		},
+		{
+			"id": "f7a4d0c500000004",
+			"fromNode": "b7a4d0c500000005",
+			"fromSide": "left",
+			"toNode": "b7a4d0c500000006",
+			"toSide": "right",
+			"label": "founding cause of",
+			"color": "1"
+		},
+		{
+			"id": "f7a4d0c500000005",
+			"fromNode": "b7a4d0c500000008",
+			"fromSide": "right",
+			"toNode": "b7a4d0c500000009",
+			"toSide": "left",
+			"label": "reroutes after",
+			"styleAttributes": {
+				"path": "short-dashed"
+			}
+		},
+		{
+			"id": "f7a4d0c500000006",
+			"fromNode": "b7a4d0c500000002",
+			"fromSide": "bottom",
+			"toNode": "b7a4d0c50000000a",
+			"toSide": "top",
+			"label": "copied out, one page a night",
+			"color": "4",
+			"styleAttributes": {
+				"path": "dotted"
+			}
+		}
+	]
+}

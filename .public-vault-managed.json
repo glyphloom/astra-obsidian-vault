@@ -1,0 +1,941 @@
+{
+  "schema": "public-vault-managed-state/v1",
+  "format": "public-vault-export/v1",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "7efdfc8245aa5590d6933794dbad8dbcbd26974dddadde58ae273a5e6c6af977"
+    },
+    {
+      "path": ".obsidian/app.json",
+      "sha256": "93ef98d4785fa49eef50e7a74983582a22ca63edb6b1a5c4b7098fcfb6a5556a",
+      "jsonSha256": "b5be24c6dc366bcf28ab982997b6b2475126fe929aa9756f0c402e8bd95a98bf"
+    },
+    {
+      "path": ".obsidian/appearance.json",
+      "sha256": "5f3b98ef003754b28a2848fa266204a561c47a1a50201e4e666a2f8ffaebfe83",
+      "jsonSha256": "21ea298dae9df880e0f3ae965e6d1f34bed25824008890c3e771af6a4acafb00"
+    },
+    {
+      "path": ".obsidian/backlink.json",
+      "sha256": "17a54ccf628b595f6a1a3fb43727d9f87c22a0b06bb5d6635d443e59233f937b",
+      "jsonSha256": "5541ec7ee3c2b6662a974764ddb8595519a27ec805437db1e3a6fe8a2260f091"
+    },
+    {
+      "path": ".obsidian/canvas.json",
+      "sha256": "f005ce888360861f6e711e4ed07640692e00a751404c98d039dc68041c538c8c",
+      "jsonSha256": "bf6f28b20657a4722b0f5639b72ba4c07718b8e2ccc8c4fd7f46780222409caf"
+    },
+    {
+      "path": ".obsidian/community-plugins.json",
+      "sha256": "6cbc9cb73f0671e8a8b9fb871005cf75e38ae281edf7e4c4384a74006045b832",
+      "jsonSha256": "7db23ee2bd8e246301abe3069b2aebbb1c479f63cf23a95e4dd304fbbd707e16"
+    },
+    {
+      "path": ".obsidian/core-plugins.json",
+      "sha256": "4ef65afab8ca3d244588327c6e54c43d49687ba54dad00419bd439b22a4b0fc6",
+      "jsonSha256": "96f007732484fcead843aeee8599fc849e404d24fc22ea91aa12b743ea2c8024"
+    },
+    {
+      "path": ".obsidian/daily-notes.json",
+      "sha256": "6ad99e86ab4ad2f4383f8cc57c1f5886c15b085ce38ddd997776a26e9294c659",
+      "jsonSha256": "fff4630206068b880d1029d6916f85c49f7dee9befc8f14f0ab7799606388d0a"
+    },
+    {
+      "path": ".obsidian/graph.json",
+      "sha256": "2db3544466c07249f577641b0d360eb68e7862e7ea75965436b99e182dd17be8",
+      "jsonSha256": "5505841ccc931908c938b7bfea3d0db93bb1ecfd0d4f4431f6ee31e187c37eb7"
+    },
+    {
+      "path": ".obsidian/hotkeys.json",
+      "sha256": "c33cecab2ae54aae43c95f03f7a21d0918559ffeeee5cbdb959f89ebbfcf4ca0",
+      "jsonSha256": "41a3cfb99717d244bdcb59115f2663eae1cbc3b2244d3e1b78d0ac088e416062"
+    },
+    {
+      "path": ".obsidian/page-preview.json",
+      "sha256": "935d9ddf96d7413f9e3e05f273cfc5fe397a6674200b7a2f0366629692d04610",
+      "jsonSha256": "2c4caa3f84e82efcfc7a9d6f497863702b05ae48b45d62d1a7ddc04d874b312f"
+    },
+    {
+      "path": ".obsidian/plugins/advanced-canvas/data.json",
+      "sha256": "1f666d0cda691939a159a3c451b1baf762705122ad9732c13ef8a95c7a20f943",
+      "jsonSha256": "d1a787959f54f1a80b766825fdf72483bd8cea750cf57a10e6fb56b47cb545e2"
+    },
+    {
+      "path": ".obsidian/plugins/astra-vault/data.json",
+      "sha256": "288058f59582c712d90f68f352f01bfd1f113612ce8bcd52c296f2f17fad302f",
+      "jsonSha256": "aed99dbc95cdc90388c1e687b5f8cb1a8667a83b1ff890135fc408999c9fb8dc"
+    },
+    {
+      "path": ".obsidian/plugins/astra-vault/main.js",
+      "sha256": "02d16adc0d40335ca0a44c6ec98e8603d38953049d6ad97c6acac6138f0cf1f1"
+    },
+    {
+      "path": ".obsidian/plugins/astra-vault/manifest.json",
+      "sha256": "3d128d11af24715e50e724a1597c400500beaba7dc3294b28228f46c8c3f7372",
+      "jsonSha256": "f1048d128f45ab5009435f9eaf5b034211a500c8d719535a7084122f7218fa35"
+    },
+    {
+      "path": ".obsidian/plugins/astra-vault/README.md",
+      "sha256": "e7509fa2ce1be9a16ce81325f897817024c302031f2b015c786fe2a5114f33ac"
+    },
+    {
+      "path": ".obsidian/plugins/astra-vault/styles.css",
+      "sha256": "a29263096b786a119c781870e3fefb8cb834e201ff56aac9ed3f810e866568ec"
+    },
+    {
+      "path": ".obsidian/plugins/better-paste/data.json",
+      "sha256": "24a89e371b54c2ddd56bdf3ace68aeba1d7f65b6ee7cf3673894159b41c49353",
+      "jsonSha256": "69df8d75de76ad178b939b9d351578da97c4fa427176cb45aab6ea0fe2534154"
+    },
+    {
+      "path": ".obsidian/plugins/callout-manager/data.json",
+      "sha256": "bdcb03e0ed56fadd239a93fee94d18fe29209c5225a7a81f9758f6bb3176c80f",
+      "jsonSha256": "5621fe69013af8219b80cbcaa535bb23e917fa4b14032e8c7ec633806dbd1ad8"
+    },
+    {
+      "path": ".obsidian/plugins/chronos/data.json",
+      "sha256": "2e3533e3b2c5e57889daeda759048541867f72ba013eda839dc0b94dc04ca945",
+      "jsonSha256": "dfdbf2d84b168984ea711cf781bfdf7a3994edb39ee7ced83ac6a474a441d3ad"
+    },
+    {
+      "path": ".obsidian/plugins/custom-sort/data.json",
+      "sha256": "a32147424977826fd9f76cef4de51f89c0bc0ba3619a38dbda0c127b2910f736",
+      "jsonSha256": "f357da80acfe7b909d603c82bc36284ce49ec8664e52c19476549f806027edad"
+    },
+    {
+      "path": ".obsidian/plugins/daily-intake/main.js",
+      "sha256": "053c00f05fba8d2533d57ec89fbd77ec8439dcdf81dc13a019938a4653839398"
+    },
+    {
+      "path": ".obsidian/plugins/daily-intake/manifest.json",
+      "sha256": "c0db2cf9d631a4ffb643ad80397215e0891c3a73fbcb4772a1883d9fe4b651c4",
+      "jsonSha256": "1ee1d77e080e2192ef9f41d3b3d855e0c2a46ac1ca7f598dee6546ccddcf453e"
+    },
+    {
+      "path": ".obsidian/plugins/daily-intake/sql-wasm.wasm",
+      "sha256": "38c14f6e379210bc942bdc4ebca44e7bfdb4318ecc1c72ca666a28fdce96670a"
+    },
+    {
+      "path": ".obsidian/plugins/daily-intake/sql.js-LICENSE.txt",
+      "sha256": "60a3f6e4d7b29b4321359e683b36cf198d24f58e24582070f56e6fa89d5ee2be"
+    },
+    {
+      "path": ".obsidian/plugins/daily-intake/styles.css",
+      "sha256": "536af88100c7514949f19c058afcbb445fce8b4a3437c4b923b70bc831fbe04a"
+    },
+    {
+      "path": ".obsidian/plugins/dataview-serializer/data.json",
+      "sha256": "4298e491743a662b0bf919ca0c1d0f8cbb443bd57013b2051e2b4b7c8e995acd",
+      "jsonSha256": "7766a4802af13d9a1a3224398ae198514e19385769a1e89e1bfd64c2b2b9b298"
+    },
+    {
+      "path": ".obsidian/plugins/dataview/data.json",
+      "sha256": "87b441310cfaedb911bde72acff978c263b750753c3ac32faeaa102c3c356d1f",
+      "jsonSha256": "441ff50306c6c3bb4eef5e1142ccef5754ad222e00829c4b9353bfcc5ec21fca"
+    },
+    {
+      "path": ".obsidian/plugins/folder-notes/data.json",
+      "sha256": "39120df5f019fa3f15bec4b1975589d5bced3f84f4f08ee6ed9082fe5cf1d653",
+      "jsonSha256": "0d280fcecac8ade6b44839d470e71e42d636439686a0a7c0892cc4fc2dd8d93b"
+    },
+    {
+      "path": ".obsidian/plugins/glossary-linker/data.json",
+      "sha256": "a73f87525bed0ef8e85e04d821a3f70d681e714b6820597de751bf72268c89ff",
+      "jsonSha256": "f10e229b4f9373b1c138c2f4bee297254d675688cb9d591840bd7a84a2d08a83"
+    },
+    {
+      "path": ".obsidian/plugins/homepage/data.json",
+      "sha256": "77b2136764f5cf0909fcc82654b1e91b9eae83ba6df4686f0a36b7b6a5e08492",
+      "jsonSha256": "cdd09f681cf99c69c3dfba474a7007508af2b36b220355e591aec20747d2607f"
+    },
+    {
+      "path": ".obsidian/plugins/iconic/data.json",
+      "sha256": "c77c3b96bd4c6bfca0e8c8cff2b68a95bf0af0e02fc1d902f6e5ab74a658aeb6",
+      "jsonSha256": "d6b5ea5409cf3f642bd13554f2239ad93a62e4938ae7be6f9b0005a7f4d191db"
+    },
+    {
+      "path": ".obsidian/plugins/jokertype/data.json",
+      "sha256": "1eb79d13e3079156ff8560b5cdc5b6b228bb0ce3c809e6b559a4e0df850fa2db",
+      "jsonSha256": "9aa5cd90b108c6d2af2fb69562d8a32b7a269f0e68bb915d9d43763b4738c98e"
+    },
+    {
+      "path": ".obsidian/plugins/jokertype/LICENSE",
+      "sha256": "6ee9d9fffd24bd239be91ed81a52e58fc850dd52a581e04c07721d2f1c70359c"
+    },
+    {
+      "path": ".obsidian/plugins/jokertype/main.js",
+      "sha256": "6c0712c6321fd11885b4ffce3f56bccc8e0fcd259a5c508df2fbf0a180dd1c4d"
+    },
+    {
+      "path": ".obsidian/plugins/jokertype/manifest.json",
+      "sha256": "fd6f714fad80b2bf25daedebf0702f2d7c4508bcd6d5d5256e3036b06e22f5f4",
+      "jsonSha256": "10cd26672caecb7e9294ee61087be9038587befea3d8ecb4a74e95bcdb56e275"
+    },
+    {
+      "path": ".obsidian/plugins/jokertype/styles.css",
+      "sha256": "c3cabecf6f201a0dd1d6053916e470094f9d8e14b9d3e48a9a6e859f835160ea"
+    },
+    {
+      "path": ".obsidian/plugins/journals/data.json",
+      "sha256": "845607d7691cc3bbef71d5449df1ba8f692ad2f2b8c1006a39f98477668a9c0d",
+      "jsonSha256": "8099f630a5c56c30284e9bba2dea98d5036e3176c64250c2c199c3131f320ab1"
+    },
+    {
+      "path": ".obsidian/plugins/mermaid-tools/data.json",
+      "sha256": "c75d3ac3a46995f346ae49363230886603f44781f1225d317a28610736a8374e",
+      "jsonSha256": "7139ac1b8bfaba378450e0b2780a8ba848b06674dc590eae8cdbd5a4e2ab801a"
+    },
+    {
+      "path": ".obsidian/plugins/metadata-hider/data.json",
+      "sha256": "1ac7ec7e01f7e7fbc0eefa51b6a378bacf4bef3abadaccf7442e7d82939b1c73",
+      "jsonSha256": "a69fa18bcd21c65325ef54bf0ebca1f4ef5beadb361c2e31cfd23f7879b671a8"
+    },
+    {
+      "path": ".obsidian/plugins/moods/assets/aeonaxsys.png",
+      "sha256": "020c01cdbc41840fd6a27a5c5cbff861c57fe6ed3b98b9e6fcabae2b7da98ab3"
+    },
+    {
+      "path": ".obsidian/plugins/moods/assets/claude-crab.png",
+      "sha256": "c6093274a44cd24b969251adecb7eb31755e9d5cb7a3f781d66c67b3d9f9dc02"
+    },
+    {
+      "path": ".obsidian/plugins/moods/assets/codex-pet.png",
+      "sha256": "4b2bd84fbc0749d9b5b87383cd1fef1d966b018bb7842491f4452634f2b96c31"
+    },
+    {
+      "path": ".obsidian/plugins/moods/data.json",
+      "sha256": "7e089e185ec3c8dc902b2c581ea82b5c6ccc0226e4f5656cceccbc869a52ea5b",
+      "jsonSha256": "2ac0476484b58617aefa8d960554f70f7ffe10a669008c2571d34a856ff41884"
+    },
+    {
+      "path": ".obsidian/plugins/moods/LICENSE.md",
+      "sha256": "c0ea4a896d2c8c394b29f9427589996db826cd501c512279ff0ed3ef48fabbe5"
+    },
+    {
+      "path": ".obsidian/plugins/moods/main.js",
+      "sha256": "4a8e7792f3c09427740ffb433afd34e7606e2ca5635dded2be8205db8743fc82"
+    },
+    {
+      "path": ".obsidian/plugins/moods/manifest.json",
+      "sha256": "24014e9a6f954695693d3a87666670eb1385b35ea0dfb37938ab2c659e9f0cbc",
+      "jsonSha256": "064d9c7cd59b112830b6b0f2d649928c463e43061908a3f7eeb90239b107ce52"
+    },
+    {
+      "path": ".obsidian/plugins/moods/NOTICE",
+      "sha256": "a4f4c6ffad8938e871c3528c7eb4b7bb552c88737b1a6a282a5eb3d934ed8bca"
+    },
+    {
+      "path": ".obsidian/plugins/moods/styles.css",
+      "sha256": "13bc09650aa6b9a3ff93227eec91016d4ded481346d3cf05875e8b04771118c3"
+    },
+    {
+      "path": ".obsidian/plugins/multi-properties/data.json",
+      "sha256": "d3bce5764f1b4e91535642a13eb62150a0f42f9991a260e50c798c865ecfe857",
+      "jsonSha256": "cc986f06c98f1d0523647a049c8603755683af61c04e9f7820ad2ce865c8cf22"
+    },
+    {
+      "path": ".obsidian/plugins/note-refactor-obsidian/data.json",
+      "sha256": "311564b8956e11dcd1c1970945423cdcd1c73943c031df6d94115af6757207dd",
+      "jsonSha256": "f25623439fe4c2e1653d739a29148a3a7a347973203a883308afbd7b7a5978ee"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-linter/data.json",
+      "sha256": "7929c09c64fddb2a7a28efa4a4346c196aaf225a620f3350bbb25dca749dc10b",
+      "jsonSha256": "229990e6dae773c3ffb59dfd4ddde2567348d02c43c851ed952af725fcfd1c8b"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-minimal-settings/data.json",
+      "sha256": "65280fab543addff5cc4d4ad6df6990db5483aecc1731f7f52b1ac105d0439ca",
+      "jsonSha256": "cb75ff216fdbce015f124ca79ad015dda12824e0b7a1f8bdae75ee6c9684e872"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-style-settings/data.json",
+      "sha256": "0f4587a367a094f0909fafe3f27eaee2436d31482f053c92dc8df73c6ef0cd0a",
+      "jsonSha256": "31bbddcc928fff37a5d25fe03aaf8c87d7ac97cd3a7953787a8be7d0cb2d6183"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-tasks-plugin/data.json",
+      "sha256": "ab2965b7c0bf6811cf6f87c293750fab1d2e068cdbae5ee8f3b420be344051a2",
+      "jsonSha256": "bf6e449e7265c061a9655ae709670a656848a3d6719b9ad74f0be53214c57eb4"
+    },
+    {
+      "path": ".obsidian/plugins/omnisearch/data.json",
+      "sha256": "d360bbdc75e49707cff43bdc07271acd21e47ac54c4c7642806fe6bea960f2f8",
+      "jsonSha256": "4765c63259b0bcdce5b3b4ec6dea6578171a8a1bccee186ef9a00ef9e9104392"
+    },
+    {
+      "path": ".obsidian/plugins/open-tab-settings/data.json",
+      "sha256": "99b5cd85dfbe781134eec396bc03c94439c0736d64b8e4c092d9f5902836f150",
+      "jsonSha256": "a620e056f685f598f7f96b70659eca88922c16af93f8705955ecb76a3f93a3a0"
+    },
+    {
+      "path": ".obsidian/plugins/public-vault-export/main.js",
+      "sha256": "7022acaa554b52ae9876d4a2f67fe6dc38c18da2c9d43f1ceeb335f663f43e22"
+    },
+    {
+      "path": ".obsidian/plugins/public-vault-export/manifest.json",
+      "sha256": "9719b509d3323b792baa5cb008ae13804fa7f0a24549f3119b091c5b5bf9f2ac",
+      "jsonSha256": "5b7706e0244a8df286d6c72eb7c48161808c633cbf78a07bb2c6e7dafd21c4cc"
+    },
+    {
+      "path": ".obsidian/plugins/simple-archiver/data.json",
+      "sha256": "8385f4b36468d9182ba3a48c3486ae6f4023d7d352d7041496c0458f9c98f331",
+      "jsonSha256": "0231dafe9f919d9a3d96f92b72413d184aa22c6b94288b87da3bf1f4b6b50ee9"
+    },
+    {
+      "path": ".obsidian/plugins/table-editor-obsidian/data.json",
+      "sha256": "98f8670c148bc377a28d456109ae5b36dc362d116a97e5a045e0a91acc11dfbe",
+      "jsonSha256": "dfdf95da195a9d9bcbed182ed8b9d495943e72be61a2518a3f07b13b93828d46"
+    },
+    {
+      "path": ".obsidian/plugins/templater-obsidian/data.json",
+      "sha256": "b6d75376a9481a49e9ffcca8b5d34f158a35759f858dd43d4977aa9027697979",
+      "jsonSha256": "f447429b8425d8af314a3e19dea40c983c44ffd5c7938777d0bca1a10a575528"
+    },
+    {
+      "path": ".obsidian/snippets/agent-callouts.css",
+      "sha256": "184b150ec782cc9faf40a2512204e0d375b7170a85d6a57857fe06a02c4b382e"
+    },
+    {
+      "path": ".obsidian/snippets/content-layout.css",
+      "sha256": "ced20ac26131a74b0a6572b71c60eff3082bc671d52f53c11c76dab4e7cde8a0"
+    },
+    {
+      "path": ".obsidian/snippets/media-banners.css",
+      "sha256": "51bccdab772b83b36d00db13110a1bde98049ed82da4d9cde3e6e95d22a29321"
+    },
+    {
+      "path": ".obsidian/snippets/media-callouts.css",
+      "sha256": "757cdb4c1dc5e7d6a6d6e1f05e1c490d03a0243a1d048ca1a30d7f689460506f"
+    },
+    {
+      "path": ".obsidian/snippets/task-metadata.css",
+      "sha256": "bd26e53337444d119a0834f85f5e83e4c6754791688b8b81ad35cce83de441f1"
+    },
+    {
+      "path": ".obsidian/snippets/task-statuses.css",
+      "sha256": "60c4166dd21bcfb85f3c43476d2ebaa05b10021efa43d85292008aed47f3e4ee"
+    },
+    {
+      "path": ".obsidian/snippets/ui-typography.css",
+      "sha256": "d9dea3a4f92b75a6491d3756fb6cd0ed9c63aa7f32c3647d29f8c95ce5f75ce6"
+    },
+    {
+      "path": ".obsidian/snippets/vault-fonts.css",
+      "sha256": "9e38ee81d338a46e7fc71f0fd98c53640e7e0b6ee4bac28820ef595aaae0736d"
+    },
+    {
+      "path": ".obsidian/templates.json",
+      "sha256": "f9fc57eec7bc0bc86382fc3ca1743e5e88775841d56dbfca25923503554f132d",
+      "jsonSha256": "650eddf4da374c2e6d6f608ecde1fee232b3d42cf558ad063cb827584a084585"
+    },
+    {
+      "path": ".obsidian/types.json",
+      "sha256": "673d739fdce5e21752e2caf94b7358dd2c74bc11cbeb3d9712b4d904b2dcd2c2",
+      "jsonSha256": "be8a590afa7d803c5d40d49ca278d01284ab210d48cb189904adc49ede661ffb"
+    },
+    {
+      "path": ".obsidian/workspace.json",
+      "sha256": "c46a33cb3286dfb59944eebe2d1b1128c55340c331d9c2e860787a4b39d6d795",
+      "jsonSha256": "d7e6c6dbe0bf4a499c715c0c9796ca0a1a81494b59d4e55c0c26b05b22ae4b17"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "9ba7b3856c18ca79b9230f4a5c96913384c2e153e4d9f8c985315c93bddf1cfb"
+    },
+    {
+      "path": "Artifacts/Project Many Happy Returns.md",
+      "sha256": "5966b940d493842ebe0e68b92a72e830feac95f7b19ed99f7aded4f1a64417f6"
+    },
+    {
+      "path": "Continuum/Food/Thursday Herring.md",
+      "sha256": "168fad4958182174379f9deea02ebe69f9be7ff08a71ed51745e9029e4ab8078"
+    },
+    {
+      "path": "Continuum/Home/Balcony.md",
+      "sha256": "231343af3b2ef62cbaa30a81b77c33e61b5313924a356f165c5f053d2ae5fda6"
+    },
+    {
+      "path": "Continuum/Media/Film/Memento.md",
+      "sha256": "b50270237b2729d5b842c0037fb9e6792f629a2528c3f7cb0c9c49611724c633"
+    },
+    {
+      "path": "Continuum/Media/Music/The Disintegration Loops.md",
+      "sha256": "0137b1150f0c7fdca2597441dbe747c459e63432064fec51c15644c467af060a"
+    },
+    {
+      "path": "Continuum/Media/Reading/Funes the Memorious.md",
+      "sha256": "e7cff339500be7d72d1a99e2f20a4ffdd9b2388e9ff23842d7911a04ff351bb9"
+    },
+    {
+      "path": "Continuum/People/Footnote.md",
+      "sha256": "243b9d81fd463161c0d356cf86fe849fb8d0634eefa8531d6e8bb5e4d5d1267d"
+    },
+    {
+      "path": "Continuum/People/Jan Oost.md",
+      "sha256": "297c0a4f68ce89c25c81019c1fe8b2d9d730f55b5d38c4305b60d989e92c59ed"
+    },
+    {
+      "path": "Continuum/People/Maren Holt.md",
+      "sha256": "fc8c9c975d9594b2ff41bfd7a8ad208357c1f6297ffd0b4e6a75099cecc67d6d"
+    },
+    {
+      "path": "Continuum/People/Noor.md",
+      "sha256": "8a65762eef52cfc90b497575a67cf58041a2d5528698fedb9efcf4c7f609b0c2"
+    },
+    {
+      "path": "Continuum/People/Receipt.md",
+      "sha256": "679fe69d474e1c47b1ec5fb614f60c5c2d6baa306a9a705e02d175dfccbd10bc"
+    },
+    {
+      "path": "Continuum/People/Sergeant Dace.md",
+      "sha256": "44724a90a9624500ed78ba5c70760f109249b37451f46fb22744102cb449ed67"
+    },
+    {
+      "path": "Continuum/People/Tomas Brandt.md",
+      "sha256": "3ec2fb9835ef6772904db6e7e502aaf40a7090921906d748060941d7f36d0c80"
+    },
+    {
+      "path": "Continuum/Time/Daily/2026-09-21.md",
+      "sha256": "3e4f01c80ba18e3371a3e0bdbe20d93946f922b5d9dfa078cb4193eea8cf814b"
+    },
+    {
+      "path": "Continuum/Time/Daily/2026-09-22.md",
+      "sha256": "1f2f23e8ff29735ebc4ffb0855c4480e32237c06a5e4712ffb25af1ee4fc34c2"
+    },
+    {
+      "path": "Continuum/Time/Daily/2026-09-23.md",
+      "sha256": "14d2fd0ed1d20ea13f220e6c3628896abf7037bbff7bbc94139c8ced9d7e7c85"
+    },
+    {
+      "path": "Continuum/Time/Daily/2026-09-24.md",
+      "sha256": "e771caf23e0c54f5c74bd98040dbb2ecdc5b6952c54df141163537e500732eda"
+    },
+    {
+      "path": "Continuum/Time/Daily/2026-09-25.md",
+      "sha256": "fac5b79333f72989bbf61b80edb8c3bddd9487565a3f283984bacee060b76efa"
+    },
+    {
+      "path": "Continuum/Time/Daily/2026-09-26.md",
+      "sha256": "62b39fb6dde8398481ed5b9ce118df02814ad6f8e83687fca19ed9bba04c94b9"
+    },
+    {
+      "path": "Continuum/Time/Daily/2026-09-27.md",
+      "sha256": "b4e2faa7690933043d3e33d4a504b7abbf45b7962ead72d6b4253a49cee3881b"
+    },
+    {
+      "path": "Continuum/Time/Monthly/2026-09.md",
+      "sha256": "714e5acd9313ea106db33da4195950f22a061ac912be43ff5d9018ee14e6f4ef"
+    },
+    {
+      "path": "Continuum/Time/Weekly/2026-W39.md",
+      "sha256": "9e6bad05e7a168e358f990989424079e27671cf3bf0fc369b3bc3e13ee2b4290"
+    },
+    {
+      "path": "Entropy/Maintenance.md",
+      "sha256": "de6b7e51809f6e75c758c8ee184565ed26f7321d0409bbecc419e2af85969968"
+    },
+    {
+      "path": "Entropy/People and Places.md",
+      "sha256": "ff7921f2d85b2801e247994e1b29521cd6d539fa9c40d83f79db4ca1e2f1ab0f"
+    },
+    {
+      "path": "Entropy/Public Vault Map.md",
+      "sha256": "f3624d43a3b987f1fbbcef13994c751534b1d96f865de48ca74152cf60003955"
+    },
+    {
+      "path": "Infinity/A Record Is a Vote for a Past.md",
+      "sha256": "254062be293510ade7c20b2414ff42a0899af96420d64ad84eb4ca421f1631d9"
+    },
+    {
+      "path": "Infinity/Black Provenance.md",
+      "sha256": "a931be7ec88294f9c84a6bd237050a8c7b26afe6ed6f501a38fe93e0a2c9c910"
+    },
+    {
+      "path": "Infinity/Forgetting Is a Feature.md",
+      "sha256": "df133217a337657fa827c83bbbde349d513a9c7180bd58374885e522ff61e520"
+    },
+    {
+      "path": "Infinity/Sorting Is Never Free.md",
+      "sha256": "b81203a621de74185cddfab94bb2c595eaa8e74e56e854230f388e2b7fe3059c"
+    },
+    {
+      "path": "Infinity/Sprints Are a Theory of Time.md",
+      "sha256": "e1be50531fbf0d282de23f97a38a3675bc0af723503e68038a9966fe848bce9c"
+    },
+    {
+      "path": "LICENSE.md",
+      "sha256": "92309cfcc3e3982781a5226581e1a4fbd05b249f46b48c497a4f24cf47c451f5"
+    },
+    {
+      "path": "LICENSES/Apache-2.0.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    {
+      "path": "LICENSES/OFL-DMMono.txt",
+      "sha256": "2bada5ea45c3c63b7f1ea1f88ce9672c9e4f0c42b2c3b7378949084fe55a3066"
+    },
+    {
+      "path": "LICENSES/OFL-GolosText.txt",
+      "sha256": "ff532f9e8789f09a9fdffc3c0954eedfb0a48be77b2e2eb90f5f82e4f347f50c"
+    },
+    {
+      "path": "Matter/Obsidian/Plugin Settings Reference.md",
+      "sha256": "e32d042447b8be9662a16346c29ede0bc06c79190aa52e121b9f2ddf0c9a85ba"
+    },
+    {
+      "path": "Matter/Obsidian/Public Example Guide.md",
+      "sha256": "57f13c87c27230a9aaa790abcbe35d65d952d3c3a3bbf239e85bae9569d6cea9"
+    },
+    {
+      "path": "Matter/Reference/Archive Glossary.md",
+      "sha256": "7e587c67c6ab2cdf447d49a018e2115a7c9042b61e0ff3be628a8f840ed2cbc9"
+    },
+    {
+      "path": "Matter/Reference/Errata.md",
+      "sha256": "b1239404406b6b6bd56117d4b502b3c7f2c353b28167b844f0020140ad38ba96"
+    },
+    {
+      "path": "Matter/Reference/Rot Tier Field Card.md",
+      "sha256": "bdb0dc8b9d355110ed95a6f3c83221e225181dc77eb42647ef77484f81d23546"
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "993452bce332a42189c4baf71f02b452029fc02528c32eafe0a0833b180037de"
+    },
+    {
+      "path": "README.md",
+      "sha256": "2735c444f60f10c5534bfa019bc0acf71b085b7be62e055b805c6c5351db9bc5"
+    },
+    {
+      "path": "Strata/Attachments/Continuum/Food/Herring recipe card.svg",
+      "sha256": "61ce1f35b4dc25f7397cd25273c3df6e44126b501123c869590a8aaa635f2734"
+    },
+    {
+      "path": "Strata/Attachments/Continuum/Home/Balcony plant.svg",
+      "sha256": "daf87d6a3c996826191500fa680df3c710b0cf53c372845a879d0c888d844552"
+    },
+    {
+      "path": "Strata/Attachments/Continuum/People/Footnote in a jar.svg",
+      "sha256": "36ab316e2aeff4ca77a934573517d4662d6ab77a2a91a88ca3d8aad128b1a5f3"
+    },
+    {
+      "path": "Strata/Attachments/Continuum/People/Tomas umbrella.svg",
+      "sha256": "b9938f0fc3b9a90dd72f0e31ae2f31f43c68c9446ae36da7ea2b3d07fb40b220"
+    },
+    {
+      "path": "Strata/Attachments/Continuum/Time/Daily/2026-09-22/Lobby plaque Monday.svg",
+      "sha256": "35b5909be0bac60d43fe8b66594db97e3701d5f95a58b22a52156b6628568f3b"
+    },
+    {
+      "path": "Strata/Attachments/Continuum/Time/Daily/2026-09-22/Lobby plaque Tuesday.svg",
+      "sha256": "eebcdde658b97cf2c28f40e2bfb9e4a7e529da78bde6ba8bb96ad57b2f287627"
+    },
+    {
+      "path": "Strata/Attachments/Continuum/Time/Daily/2026-09-22/Pay slip August.svg",
+      "sha256": "f80025f06bc9bf3cd0dde55387c37a2e87cba6179c227032046cee79ad8b520c"
+    },
+    {
+      "path": "Strata/Attachments/Continuum/Time/Daily/2026-09-22/Recording 20260922071433.m4a",
+      "sha256": "f7591229f1f5c1cef1f9af8620f569405e135bb7de5e6d2a42304d32b742e98d"
+    },
+    {
+      "path": "Strata/Attachments/Continuum/Time/Daily/2026-09-27/Noor balcony photo.svg",
+      "sha256": "4745b7a16e474192c497115cad5690b6b962af4203169ce34cca41e2ab8f6dc4"
+    },
+    {
+      "path": "Strata/Attachments/Underwork/Archive/Archive seal.svg",
+      "sha256": "aab222ebb15209931474b032beb3f9ad7b3a4615bc9a5aceb11ecf81f398587e"
+    },
+    {
+      "path": "Strata/Banners/Hubble Running Man Nebula.jpg",
+      "sha256": "9f5c8e3889327512e483561dca6fb56916322da1a5e2b751ffa25f9384ff16b7"
+    },
+    {
+      "path": "Strata/Banners/Hubble Veil Nebula.jpg",
+      "sha256": "7cf99cb2acf1d5656b0a1d17efb2db7b5edf4a303d50c0e92c164224d1ab4059"
+    },
+    {
+      "path": "Strata/Banners/ISS Aurora Borealis.jpg",
+      "sha256": "d7456d19c6be1546a64d163ba090e25347b83ff9a9dd12ad299d76bca5880019"
+    },
+    {
+      "path": "Strata/Banners/Webb Cosmic Cliffs.jpg",
+      "sha256": "2f677bcfe294c3a3d301a67fa9ad3b13ee8f75351d5871ae0c0cbe58f5482c13"
+    },
+    {
+      "path": "Strata/Bases/Projects.base",
+      "sha256": "b5a97bda45bd5653ba720c9bfdc25e40b2322e183990b6a6ca7ece4f44c88878"
+    },
+    {
+      "path": "Strata/Configs/sortspec.md",
+      "sha256": "836474d18fcb365ecf05a9640300a87570a48152f0a713fc7273011c22192d93"
+    },
+    {
+      "path": "Strata/Fonts/DMMono-Regular.ttf",
+      "sha256": "f98ada968dc3b6b2c08d3f5caaf266977df0bfe0929372b93df5a06cf2ace450"
+    },
+    {
+      "path": "Strata/Fonts/GolosText-VariableFont_wght.ttf",
+      "sha256": "e16aabbad7f1b1aa3f19390ded057851363775c675018896e22b3aeef230602f"
+    },
+    {
+      "path": "Strata/Panels/Reminders Panel.md",
+      "sha256": "190c1b01de6163511fb1d2b06969fa1e6bd6d704d42d636e3902dc7e202e64e6"
+    },
+    {
+      "path": "Strata/Public Vault/assets/public-vault-mark.svg",
+      "sha256": "12df09e8d0a26dd7c39f9b96ac182e62d136ebcb8f598d1d3495104d5a6665ec"
+    },
+    {
+      "path": "Strata/Public Vault/audit-stage-two.mjs",
+      "sha256": "204d30a870de62f3a6ab1a9a018d3e566c417ede9ea21d5e4cf81ed2b2125ba6"
+    },
+    {
+      "path": "Strata/Public Vault/export-public-vault.mjs",
+      "sha256": "9697f8f35efda8e48d85bd9656388c8393e855d365b21c583d589b39050af5cb"
+    },
+    {
+      "path": "Strata/Public Vault/license-profile.mjs",
+      "sha256": "3318036cb0d9d3b0f6b84135217481e2bc103a3017e86e6091f48e8e468e6e04"
+    },
+    {
+      "path": "Strata/Public Vault/licenses/Apache-2.0.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "Strata/Public Vault/licenses/CC-BY-4.0.txt",
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    {
+      "path": "Strata/Public Vault/licenses/JokerType-MIT.txt",
+      "sha256": "6ee9d9fffd24bd239be91ed81a52e58fc850dd52a581e04c07721d2f1c70359c"
+    },
+    {
+      "path": "Strata/Public Vault/licenses/OFL-DMMono.txt",
+      "sha256": "2bada5ea45c3c63b7f1ea1f88ce9672c9e4f0c42b2c3b7378949084fe55a3066"
+    },
+    {
+      "path": "Strata/Public Vault/licenses/OFL-GolosText.txt",
+      "sha256": "ff532f9e8789f09a9fdffc3c0954eedfb0a48be77b2e2eb90f5f82e4f347f50c"
+    },
+    {
+      "path": "Strata/Public Vault/licenses/PolyForm-Noncommercial-1.0.0.md",
+      "sha256": "c0ea4a896d2c8c394b29f9427589996db826cd501c512279ff0ed3ef48fabbe5"
+    },
+    {
+      "path": "Strata/Public Vault/licenses/sql.js-MIT.txt",
+      "sha256": "60a3f6e4d7b29b4321359e683b36cf198d24f58e24582070f56e6fa89d5ee2be"
+    },
+    {
+      "path": "Strata/Public Vault/package.json",
+      "sha256": "12063a7ed95d96c5e0a1d6b518079b0d0c5f2814ba54aa131d8c83a32a993997",
+      "jsonSha256": "abec16f0e29a3998eb9ff8667ba3ee05ed46e7abb59bd113db323a5f6517f51c"
+    },
+    {
+      "path": "Strata/Public Vault/plugin-catalog.json",
+      "sha256": "ac29fe8c499c219cf48d61d7ade77cc216e7648411199bb97c7ab38ab3c9eb66",
+      "jsonSha256": "018a86ca2b62ebd9d8972d4fd282458ff53be9e73517bfb6feb042385ee7dbc5"
+    },
+    {
+      "path": "Strata/Public Vault/public-rewrites.json",
+      "sha256": "112ed72d19c0bb3689ba66946803ec3d1a67c44ca8bf0a8ad3adbe51b7eedb14",
+      "jsonSha256": "575b80dea34a08b7e1cae0c87e4d82c1f4f6975665b750f895bd7699027380c2"
+    },
+    {
+      "path": "Strata/Public Vault/public-vault.manifest.mjs",
+      "sha256": "8425ef15bdd61d06427e49db5d54feb37a66f427a870dadc76b08d574978dcd5"
+    },
+    {
+      "path": "Strata/Public Vault/README.md",
+      "sha256": "f148fccc6c1307c500db80cdd5dd4ab3d85397ee36958041e226f6f599db9461"
+    },
+    {
+      "path": "Strata/Public Vault/root-gitignore",
+      "sha256": "b32485faef692a0edf7230bc678672e8636c0b3ec859ba81165fa4b3737be43a"
+    },
+    {
+      "path": "Strata/Public Vault/root-README.md",
+      "sha256": "2735c444f60f10c5534bfa019bc0acf71b085b7be62e055b805c6c5351db9bc5"
+    },
+    {
+      "path": "Strata/Public Vault/stage2-public-profile.mjs",
+      "sha256": "423856d28debbce6def14766d526e2adc2e7ecede1e3d62890d17e9bead7c1a6"
+    },
+    {
+      "path": "Strata/Public Vault/tests/export-public-vault.test.mjs",
+      "sha256": "a6af7c961037f4f567d4abea4d059dad719c560d7cb36c14a420e08e16662c06"
+    },
+    {
+      "path": "Strata/Public Vault/validate-public-vault.mjs",
+      "sha256": "2eb6afe740ffe10d870bdb1710314105333827a7c8d3900965e80db2f5dbb115"
+    },
+    {
+      "path": "Strata/README.md",
+      "sha256": "3979325335f296f27119a7df5bea24da08f0a40fbfed1e6890bda9b610b5b050"
+    },
+    {
+      "path": "Strata/Skills/obsidian-authoring/agents/openai.yaml",
+      "sha256": "f8d769e2fc1d3c8d1b06bc15bc31735a6f0fe3e4493428d99344427dceaca2cd"
+    },
+    {
+      "path": "Strata/Skills/obsidian-authoring/SKILL.md",
+      "sha256": "3f2996e1133c22e0bb77485889d376e31af54087d8e12173ee7d10cfe73ef85b"
+    },
+    {
+      "path": "Strata/Skills/obsidian-daily/agents/openai.yaml",
+      "sha256": "0eec6af4e137c33f274f7e0828a8c68cf4ed6041212e6fa425edf372b4fec82a"
+    },
+    {
+      "path": "Strata/Skills/obsidian-daily/references/daily-contract.md",
+      "sha256": "63c0a38af32b29b1f902d779802b0a923d27adc47baaefeaf2803a32a9d59858"
+    },
+    {
+      "path": "Strata/Skills/obsidian-daily/scripts/audio_transcripts.py",
+      "sha256": "f1335181a60ff2338a43b4506ab676275288828fed14f45150f4b2c3ddb1e194"
+    },
+    {
+      "path": "Strata/Skills/obsidian-daily/scripts/daily_audio/__init__.py",
+      "sha256": "514e234b13308a8f10b1414508a9f7dc46609cbc2c30957b624e7b45e725aed2"
+    },
+    {
+      "path": "Strata/Skills/obsidian-daily/scripts/daily_audio/context.py",
+      "sha256": "c68e2755da1ee76ed966993a582185e1af33c9396822c220ba4dea82c59d374c"
+    },
+    {
+      "path": "Strata/Skills/obsidian-daily/scripts/daily_audio/discovery.py",
+      "sha256": "36e286d3502f9d69b8913dcec1f25c20ba5bcac9cef4829d2fd4c453363736a5"
+    },
+    {
+      "path": "Strata/Skills/obsidian-daily/scripts/daily_audio/media.py",
+      "sha256": "14d8e9af848d1b6ed9df658c18449cca41bac3658bdb513e3654b2e32811d3ea"
+    },
+    {
+      "path": "Strata/Skills/obsidian-daily/scripts/daily_audio/mutations.py",
+      "sha256": "d11aa0d8f427782f5dafc42c3d119a194240764024dde8e44b436b1e78d2282a"
+    },
+    {
+      "path": "Strata/Skills/obsidian-daily/scripts/daily_audio/paths.py",
+      "sha256": "378580f0f285e3f4c680a99926fbc6fbe351470e4a309103ef0fdedf9eb0459f"
+    },
+    {
+      "path": "Strata/Skills/obsidian-daily/SKILL.md",
+      "sha256": "225aa6d9c18e0eaca555bdbc6f5459f481c1c23052ad8082db4ccb9a437f145a"
+    },
+    {
+      "path": "Strata/Skills/obsidian-daily/tests/test_obsidian_daily.py",
+      "sha256": "bfdb47999bea73731ed05245c4fc9437c4d6643e0f71e5b9cdeb0f3b51675ddb"
+    },
+    {
+      "path": "Strata/Skills/obsidian-review/agents/openai.yaml",
+      "sha256": "7de811b5c5656b01b235734524f9047aa724dee5a99cc8f4bee919ab3ac894b8"
+    },
+    {
+      "path": "Strata/Skills/obsidian-review/scripts/period_evidence.py",
+      "sha256": "a5b14de2182998e02e3eb055ff0ac1916c1b5fcce7c583b18e51bfb18a67c022"
+    },
+    {
+      "path": "Strata/Skills/obsidian-review/SKILL.md",
+      "sha256": "1fe362e510ad1ba603662bedcbcb8683a49ad9cb9296d5396675723290b6677a"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/agents/openai.yaml",
+      "sha256": "fb3c783ffb1dc3a4aae84f1051cd050d1308edb941b66d763c0c84fb6493bbaf"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/references/note-granularity.md",
+      "sha256": "0dd0d4c812c29b1de15b899893f3c9f85e92d1c004c29ac26fab70eb6fc84c5c"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/references/pipeline-contract.md",
+      "sha256": "eede2f25c7480300f410d8ea63186b0a573837fc9f70074fa7ca0a422b28c7bf"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/references/research-depth.md",
+      "sha256": "55ab9dcd6ca7d168aba4fb4391362a32c483972e101b76bae14e0d75f13b757e"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/references/vault-profile.md",
+      "sha256": "cb406a5f35ba915b0babc3d3b7d7062a58fc0b7263b5d6480ae035c0fc347448"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/scripts/acquire_image.py",
+      "sha256": "4ef63112b4401eb7993666087d564f838e954f0ebd7db4d314034a2afa133efd"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/scripts/append_daily_capture.py",
+      "sha256": "4ae27572f8c6e698f2853320da26459622cb51380381aa1e788fc440a124d71a"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/scripts/asset_manifest.py",
+      "sha256": "ee2adf4817bfbbaf7c66c9f441b5c81c7dd48d5a6e78eb00e9d972b5333bdbcf"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/scripts/commit_note.py",
+      "sha256": "994f196c112994771ac122f09f052b9ac055262b021d1ea77bebbc07892cd4bc"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/scripts/identity_ledger.py",
+      "sha256": "b38fc674c899a7d81f2ff12a6fd7c18c2e53b7bc29117e23f15856735ecd3d96"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/scripts/probe_vault.py",
+      "sha256": "45411701c45c95e908a94e6249e4cd7d891bf80fa4130c138e46c6f9bfb01f1b"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/scripts/resolve_source.py",
+      "sha256": "69bda741e01630a790b4643b1b495b05c721e11312d014af383eb9af5a6d37f3"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/scripts/route_capture.py",
+      "sha256": "c342be4594bf7e78f2e03515e8a9067e9188c711e054f98fd6e945bdb228f243"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/scripts/save_common.py",
+      "sha256": "33d8ee0f01bb28047f4b0131941cf211eb4e2851c555a9b4fa311cd02c856566"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/scripts/save_scope_manifest.py",
+      "sha256": "95883c7298af0825a2b826fc82547894ac8e83305f33473fae76b7873f70476d"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/scripts/save_session.py",
+      "sha256": "14f79c6f5b21497693c2be84897b5fb823e72a2db4c058a59ab3d5cb3fb08dcb"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/scripts/validate_note.py",
+      "sha256": "6a63cb8ea25ba6744fc12011ac0d751c1fe3fe4649568d4f7d57a6dc7473265d"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/scripts/write_receipt.py",
+      "sha256": "8b92bf89b4346d32ea3e5794c32735ae016dcd95848ae1043f7e93a5adf092ce"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/SKILL.md",
+      "sha256": "ffb3d8b6c2d04d642f9cd7fa8cc4ead4ea30d67bb72a6a784211ac2b5cae1a54"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/tests/fixtures/routing-cases.json",
+      "sha256": "67d5d5b5bf012ba15f2b489fa2516f1323b85827d4ecb1cf8ec5ff18ff606d10",
+      "jsonSha256": "74d59928f103502a4d473695bcfe89e311a26a53206aaf02e9b3269593964e83"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/tests/fixtures/save-contract.json",
+      "sha256": "cd067c0c3a50e3fec09938c7cd1556a65da0474f97419d67e4f2f51e9d63a853",
+      "jsonSha256": "8165ad8593c1fd96a3450a4e8551913f723e2ed055260016ec4194dfb9988642"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/tests/test_save_pipeline.py",
+      "sha256": "711ac3106465c7116e63b38467b36c39bf08938b390ad8fea9a7605e41f7781c"
+    },
+    {
+      "path": "Strata/Templates/Areas/Areas Template.md",
+      "sha256": "259600a3ad7c6b60d2c658f3826a78cf10bba5c479b1a59718c3d746d6bd07f5"
+    },
+    {
+      "path": "Strata/Templates/Areas/People Template.md",
+      "sha256": "fb9576ae439acede40c6c635130617cb58c85a7e31711c9dd12b2a4bef8a9bd9"
+    },
+    {
+      "path": "Strata/Templates/Default Note.md",
+      "sha256": "73d6d47327e3648a69c6b35ded9023f7892bcf64e973503c1b3dd22f7fe93548"
+    },
+    {
+      "path": "Strata/Templates/MOCs/MOCs Template.md",
+      "sha256": "845cc894558c301b0cf207eaf88216a2f788aad533052f49023b5b1fb8420421"
+    },
+    {
+      "path": "Strata/Templates/Projects/Project Template.md",
+      "sha256": "84469e568105086181d83115b0b6d46980675061698426f098e3dad495ab9114"
+    },
+    {
+      "path": "Strata/Templates/Resources/Resources Template.md",
+      "sha256": "578e0ac1a5bffb6b83da9eb3fe3e0f9e4d167df8466d0264f0dc3e4f7804d989"
+    },
+    {
+      "path": "Strata/Templates/Time/Journals/Daily Note.md",
+      "sha256": "92552e0a8a1fd17292fa48aa3441cd824c609d72daa4fbf6a4ff1527fb75665d"
+    },
+    {
+      "path": "Strata/Templates/Time/Journals/Monthly Note.md",
+      "sha256": "e86a479e42338da4ede960e8ff95eea8b3b20d0e4333044c5ddb13d5cf85d24e"
+    },
+    {
+      "path": "Strata/Templates/Time/Journals/Weekly Note.md",
+      "sha256": "35604abd26e681c6013876d8bbbb0f57c6e9313f57ac23efc40b20d823ddc6b0"
+    },
+    {
+      "path": "Strata/Templates/Time/Journals/Yearly Note.md",
+      "sha256": "785e6a98e8622be82fbbf2f4a70c3ed8615c2d38514167df1a22a52692c09ef1"
+    },
+    {
+      "path": "Strata/Templates/Zettel Note.md",
+      "sha256": "de6a264a44569571a54edcebcd869f3ee7149ade32143c89d81a28e0d51b6567"
+    },
+    {
+      "path": "Underwork/Archive/Analyst Onboarding.md",
+      "sha256": "7a4ee384c2f14980092e9e4474217cdc3ee1f921ce89945867927ffbab4fba25"
+    },
+    {
+      "path": "Underwork/Archive/Archive.md",
+      "sha256": "89c983b8bfdac2e2bdb04734a85ea7e086aa7a4b24315ec1871a6b1c0f8c9f20"
+    },
+    {
+      "path": "Underwork/Archive/Clean Cut Board.md",
+      "sha256": "59e73bd93675aac2be9adbd05fd8a3177dafb7f739591ea5e7bab2d611ca684c"
+    },
+    {
+      "path": "Underwork/Archive/Clean Cut Briefing.md",
+      "sha256": "7c063023d28b37cc09a4f9e8f1e0a746991de1b3b508cea5c939ed34fe169d62"
+    },
+    {
+      "path": "Underwork/Archive/Clean Cut.md",
+      "sha256": "1f8ef03d5ca0ef31ee4cbe3dc1a7df31c23d12bfb520647c50c96cd3738c8465"
+    },
+    {
+      "path": "Underwork/Archive/Diachronic Security.md",
+      "sha256": "2c60f873b64d2fc6e4400e58d40276c0399b1ee12727b1c922768fab2ace1f73"
+    },
+    {
+      "path": "Underwork/Archive/Ledger Zero.md",
+      "sha256": "aa83540f81d2eefb3d474df872bb234a21909c8cd8658d42129b531ea452702b"
+    },
+    {
+      "path": "Underwork/Archive/Orrery Rerouting Run.md",
+      "sha256": "fe7579eb600f83ceaeaf4b069541ca9888a38bc66f4d031e95131f1680b601cf"
+    },
+    {
+      "path": "Underwork/Archive/Salt Meridian War.md",
+      "sha256": "35fec7c21b5bd33f5b863026ca47a77ab52d98d34c3e048452a71f705ee2e268"
+    },
+    {
+      "path": "Underwork/Archive/Varda Zone.canvas",
+      "sha256": "ff23894011b3d71b9e33b3b9c889246041af2ecfe97917129321cea4045d5550"
+    },
+    {
+      "path": "Underwork/Public Vault Seed.md",
+      "sha256": "01dfaab944d11f635f350797c2562087626ebb09707f269bc77ead1c3c1a7f1c"
+    },
+    {
+      "path": "Underwork/Quiet Ledger/Quiet Ledger.md",
+      "sha256": "fa0b550b0616d857d42850597bc435dc9d3b27dea3b7f036657f52c4d619a715"
+    },
+    {
+      "path": "Underwork/Quiet Ledger/Varda Parish Register.md",
+      "sha256": "3f72cdb470e0265a494bea157045969bc6dd101823f572ac1d16f78749d4523d"
+    },
+    {
+      "path": "Underwork/Quiet Ledger/Witnessed.base",
+      "sha256": "a062d0142018372b3dc721f01b403a83621430c0c4051088ce9e43b27083562b"
+    },
+    {
+      "path": "Vault Tagging System.md",
+      "sha256": "5bc767d155ca53f70e528e0bff1b9864f3707f1c70a965be4ceaf8f826805453"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+/* === Note typography === */
+
+.markdown-source-view.mod-cm6 .cm-scroller,
+.markdown-preview-view {
+	font-weight: 400;
+	letter-spacing: -0.05ch;
+}
+
+/* === File explorer === */
+
+.tree-item-inner .nav-file-title-content {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+/* === Claudian interface === */
+
+.claudian-message-content {
+	color: var(--text-normal);
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.claudian-message-content code {
+	font-size: 16px;
+	font-style: italic;
+	color: var(--text-accent);
+}
+
+/* Keep Claudian's hidden user-message actions from reserving a blank strip. */
+.claudian-message-user > .claudian-user-msg-actions.claudian-message-actions {
+	position: absolute;
+	inset-block-start: 100%;
+	inset-inline-end: 0;
+	z-index: 3;
+	margin-top: 2px;
+}
+
+.claudian-input-wrapper {
+	transition:
+		border-color 180ms ease,
+		box-shadow 180ms ease;
+}
+
+.claudian-input {
+	font-size: 16px;
+}
+
+.claudian-input-wrapper:is(:hover, :active, :focus-within) {
+	border-color: var(--text-accent);
+	animation: claudian-violet-border-pulse 1.8s ease-in-out infinite;
+}
+
+@keyframes claudian-violet-border-pulse {
+	0%,
+	100% {
+		box-shadow:
+			0 0 0 1px var(--text-accent / 24%),
+			0 0 8px var(--text-accent / 18%);
+	}
+
+	50% {
+		box-shadow:
+			0 0 0 1px var(--text-accent / 70%),
+			0 0 16px var(--text-accent / 42%);
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.claudian-input-wrapper:is(:hover, :active, :focus-within) {
+		animation: none;
+		box-shadow: 0 0 0 1px var(--text-accent / 45%);
+	}
+}
+
+/* Hide Claudian's chat scroll controls until hovered. */
+.claudian-nav-sidebar.visible:not(:hover, :focus-within) {
+	opacity: 0;
+}
+
+/* === Ribbon === */
+/*
+ * Ribbon band-aids
+ *
+ * Smart Connections and Smart Lookup register their ribbon actions after
+ * Obsidian restores the workspace, causing hidden icons to reappear.
+ */
+
+.workspace-ribbon.mod-left .side-dock-ribbon-action[aria-label="Smart Connections: Open random connection"],
+.workspace-ribbon.mod-left .side-dock-ribbon-action[aria-label="Smart Connections: Open connections view"],
+.workspace-ribbon.mod-left .side-dock-ribbon-action[aria-label="Toggle Footer Connections"],
+.workspace-ribbon.mod-left .side-dock-ribbon-action[aria-label="Smart Lookup: Open lookup view"] {
+  display: none !important;
+}

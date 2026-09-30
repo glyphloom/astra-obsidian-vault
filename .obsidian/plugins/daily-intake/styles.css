@@ -1,0 +1,67 @@
+.daily-intake-settings .setting-item-description { max-width: 46rem; }
+
+.daily-intake-status {
+  align-items: center;
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 999px;
+  color: var(--text-muted);
+  display: inline-flex;
+  font-size: .86em;
+  gap: .45rem;
+  margin: .3rem 0 1rem;
+  padding: .32rem .62rem;
+}
+
+.daily-intake-status-dot {
+  background: var(--text-muted);
+  border-radius: 50%;
+  height: .48rem;
+  width: .48rem;
+}
+
+.daily-intake-status[data-state="active"] {
+  border-color: var(--interactive-accent);
+  color: var(--text-normal);
+}
+
+.daily-intake-status[data-state="active"] .daily-intake-status-dot {
+  background: var(--interactive-accent);
+  box-shadow: 0 0 .45rem var(--interactive-accent);
+}
+
+.daily-intake-status[data-state="warning"] {
+  border-color: var(--text-warning, var(--color-orange));
+  color: var(--text-warning, var(--color-orange));
+}
+
+.daily-intake-status[data-state="warning"] .daily-intake-status-dot {
+  background: var(--text-warning, var(--color-orange));
+}
+
+.callout[data-callout="daily-intake"] {
+  --callout-color: 118, 135, 150;
+  --callout-icon: lucide-inbox;
+  background: rgba(118, 135, 150, .08);
+  border-color: var(--background-modifier-border);
+  box-shadow: none;
+}
+
+/* A nested intake item starts at the same visual distance as its sibling.
+   This leaves ordinary text after a callout title unchanged. */
+.callout[data-callout="daily-intake"] > .callout-content > .callout:first-child {
+  margin-top: 12px !important;
+}
+
+.callout[data-callout="agent-inbox"] {
+  --callout-color: 33, 190, 255;
+  --callout-icon: lucide-bot;
+  background: linear-gradient(135deg, rgba(32, 117, 255, .2), rgba(12, 212, 255, .11));
+  border: 1px solid rgba(33, 157, 255, .78);
+  box-shadow: 0 0 1rem rgba(0, 176, 255, .24);
+}
+
+.callout[data-callout="agent-inbox"] .callout-title {
+  color: var(--text-normal);
+  font-weight: 700;
+}

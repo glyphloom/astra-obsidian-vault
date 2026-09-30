@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs><linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d9d2c3"/><stop offset="1" stop-color="#b9b0a0"/></linearGradient></defs>
+  <rect width="600" height="400" fill="url(#wall)"/>
+  <rect x="0" y="330" width="600" height="70" fill="#7a6552"/>
+  <rect x="380" y="40" width="150" height="290" fill="#8d7560" stroke="#5e4b3b" stroke-width="4"/>
+  <circle cx="505" cy="190" r="7" fill="#d8c290"/>
+  <g transform="rotate(-14 300 330)">
+    <path d="M300 330 L300 90" stroke="#1d1d1f" stroke-width="6"/>
+    <path d="M300 100 Q262 140 250 290 Q275 300 300 330 Q325 300 350 290 Q338 140 300 100 Z" fill="#232326" stroke="#0f0f10" stroke-width="3"/>
+    <path d="M300 100 Q290 200 300 330" stroke="#3a3a3e" stroke-width="2" fill="none"/>
+    <path d="M300 100 Q318 170 336 225 L352 238" stroke="#3a3a3e" stroke-width="2.5" fill="none"/>
+    <path d="M336 225 L358 214" stroke="#9a9aa0" stroke-width="3"/>
+    <path d="M300 90 Q300 70 318 70 Q334 70 334 86" stroke="#6b4a2f" stroke-width="9" fill="none" stroke-linecap="round"/>
+  </g>
+  <text x="24" y="380" font-family="Georgia, serif" font-style="italic" font-size="18" fill="#efe6d3">owner: none on record</text>
+</svg>

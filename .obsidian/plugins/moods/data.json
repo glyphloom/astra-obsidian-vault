@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 1,
+  "enabled": true,
+  "easyMode": false,
+  "onboardingComplete": true,
+  "transitionEnabled": true,
+  "transitionDuration": 1280,
+  "livePreviewEnabled": true,
+  "defaultMoodId": "mood-muep659p-gna31q",
+  "obsidianTheme": "Minimal",
+  "moods": [
+    {
+      "id": "mood-public-kitchen",
+      "name": "Kitchen",
+      "palette": {
+        "accent": "#6027C4",
+        "surface": "#E7DADE",
+        "text": "#330025",
+        "danger": "#E05C1A",
+        "emphasis": "#FF0F5F"
+      },
+      "generation": {
+        "contrast": 10,
+        "saturation": 10,
+        "brightness": 12,
+        "hueShift": -2
+      },
+      "enabled": true,
+      "colorsEnabled": true,
+      "theme": "obsidian",
+      "activationGroups": [
+        {
+          "id": "group-public-kitchen",
+          "any": [
+            {
+              "id": "condition-public-kitchen",
+              "type": "path",
+              "operator": "inside",
+              "value": "Continuum/Food"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "priorityOverride": false
+        }
+      ]
+    },
+    {
+      "id": "mood-public-archive",
+      "name": "Archive Floor",
+      "palette": {
+        "accent": "#9E5CC1",
+        "surface": "#443F4A",
+        "text": "#B6A6C9",
+        "danger": "#E41111",
+        "emphasis": "#45CBF7"
+      },
+      "generation": {
+        "contrast": 0,
+        "saturation": 0,
+        "brightness": 0,
+        "hueShift": 0
+      },
+      "enabled": true,
+      "colorsEnabled": true,
+      "theme": "obsidian",
+      "activationGroups": [
+        {
+          "id": "group-public-archive",
+          "any": [
+            {
+              "id": "condition-public-archive",
+              "type": "path",
+              "operator": "inside",
+              "value": "Underwork/Archive"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "priorityOverride": false
+        }
+      ]
+    },
+    {
+      "id": "mood-public-lab",
+      "name": "Lab Notes",
+      "palette": {
+        "accent": "#3C59EC",
+        "surface": "#3B0047",
+        "text": "#FF9524",
+        "danger": "#FF691F",
+        "emphasis": "#0F1FFF"
+      },
+      "generation": {
+        "contrast": -70,
+        "saturation": 0,
+        "brightness": -4,
+        "hueShift": 0
+      },
+      "enabled": true,
+      "colorsEnabled": true,
+      "theme": "obsidian",
+      "activationGroups": [
+        {
+          "id": "group-public-lab",
+          "any": [
+            {
+              "id": "condition-public-lab",
+              "type": "path",
+              "operator": "inside",
+              "value": "Infinity"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "priorityOverride": false
+        }
+      ]
+    },
+    {
+      "id": "mood-muep659p-gna31q",
+      "name": "Default",
+      "palette": {
+        "accent": "#FFD60A",
+        "surface": "#003566",
+        "text": "#C2C5FF",
+        "danger": "#FFC300",
+        "emphasis": "#D71919"
+      },
+      "generation": {
+        "contrast": 4,
+        "saturation": -4,
+        "brightness": -2,
+        "hueShift": 7
+      },
+      "enabled": true,
+      "colorsEnabled": true,
+      "theme": "obsidian",
+      "activationGroups": [
+        {
+          "id": "group-public-root",
+          "any": [
+            {
+              "id": "condition-public-root",
+              "type": "path",
+              "operator": "inside",
+              "value": "/"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "priorityOverride": false
+        }
+      ]
+    }
+  ],
+  "colors": [
+    {
+      "id": "preset-mshzml8a-dycq1s",
+      "name": "Greener Pastures",
+      "palette": {
+        "accent": "#D38C47",
+        "surface": "#201912",
+        "text": "#C0D6DA",
+        "danger": "#8799E4",
+        "emphasis": "#2BBED8"
+      },
+      "generation": {
+        "contrast": -60,
+        "saturation": 60,
+        "brightness": 10,
+        "hueShift": 120
+      },
+      "colorsEnabled": true,
+      "builtInId": "preset-causal-rot"
+    },
+    {
+      "id": "preset-building-zone",
+      "name": "Building Zone",
+      "palette": {
+        "accent": "#FF4D00",
+        "surface": "#FFFFFF",
+        "text": "#1D1C1B",
+        "danger": "#C34A36",
+        "emphasis": "#FF8066"
+      },
+      "generation": {
+        "contrast": 0,
+        "saturation": 0,
+        "brightness": 0,
+        "hueShift": 0
+      },
+      "colorsEnabled": true,
+      "builtInId": "preset-building-zone"
+    },
+    {
+      "id": "preset-the-long-night",
+      "name": "The Long Night",
+      "palette": {
+        "accent": "#9E5CC1",
+        "surface": "#443F4A",
+        "text": "#B6A6C9",
+        "danger": "#E41111",
+        "emphasis": "#45CBF7"
+      },
+      "generation": {
+        "contrast": 0,
+        "saturation": 0,
+        "brightness": 0,
+        "hueShift": 0
+      },
+      "colorsEnabled": true,
+      "builtInId": "preset-the-long-night"
+    },
+    {
+      "id": "preset-burning-ocean",
+      "name": "Burning Ocean",
+      "palette": {
+        "accent": "#3C59EC",
+        "surface": "#3B0047",
+        "text": "#FF9524",
+        "danger": "#FF691F",
+        "emphasis": "#0F1FFF"
+      },
+      "generation": {
+        "contrast": -70,
+        "saturation": 0,
+        "brightness": -4,
+        "hueShift": 0
+      },
+      "colorsEnabled": true,
+      "builtInId": "preset-burning-ocean"
+    },
+    {
+      "id": "preset-rose-bloom",
+      "name": "Rose Bloom",
+      "palette": {
+        "accent": "#6027C4",
+        "surface": "#E7DADE",
+        "text": "#330025",
+        "danger": "#E05C1A",
+        "emphasis": "#FF0F5F"
+      },
+      "generation": {
+        "contrast": 10,
+        "saturation": 10,
+        "brightness": 12,
+        "hueShift": -2
+      },
+      "colorsEnabled": true,
+      "builtInId": "preset-rose-bloom"
+    },
+    {
+      "id": "preset-causal-topology",
+      "name": "Reality Structure",
+      "palette": {
+        "accent": "#FFD60A",
+        "surface": "#003566",
+        "text": "#C2C5FF",
+        "danger": "#FFC300",
+        "emphasis": "#D71919"
+      },
+      "generation": {
+        "contrast": 4,
+        "saturation": -4,
+        "brightness": -2,
+        "hueShift": 7
+      },
+      "colorsEnabled": true,
+      "builtInId": "preset-causal-topology"
+    },
+    {
+      "id": "preset-immaculate-life",
+      "name": "Immaculate Life",
+      "palette": {
+        "accent": "#4EC224",
+        "surface": "#2B2447",
+        "text": "#EE99F0",
+        "danger": "#CD0A0A",
+        "emphasis": "#E22282"
+      },
+      "generation": {
+        "contrast": -10,
+        "saturation": 5,
+        "brightness": 1,
+        "hueShift": -1
+      },
+      "colorsEnabled": true,
+      "builtInId": "preset-immaculate-life"
+    },
+    {
+      "id": "preset-dead-tree",
+      "name": "Dead Tree",
+      "palette": {
+        "accent": "#FFA04D",
+        "surface": "#50311B",
+        "text": "#CEA140",
+        "danger": "#E41111",
+        "emphasis": "#FBFF14"
+      },
+      "generation": {
+        "contrast": 0,
+        "saturation": 0,
+        "brightness": 0,
+        "hueShift": 0
+      },
+      "colorsEnabled": true,
+      "builtInId": "preset-dead-tree"
+    }
+  ]
+}

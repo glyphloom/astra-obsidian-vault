@@ -1,0 +1,10 @@
+{
+  "id": "moods",
+  "name": "Moods",
+  "version": "0.18.40",
+  "minAppVersion": "1.13.4",
+  "description": "Apply contextual colors and mood-selected themes in Obsidian.",
+  "author": "glyphloom",
+  "authorUrl": "https://github.com/glyphloom",
+  "isDesktopOnly": false
+}

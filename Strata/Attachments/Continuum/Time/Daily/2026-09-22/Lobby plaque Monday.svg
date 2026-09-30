@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="marble" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e9e6e0"/><stop offset="1" stop-color="#cfcac1"/></linearGradient>
+    <linearGradient id="brass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d9b86a"/><stop offset="0.5" stop-color="#b8923e"/><stop offset="1" stop-color="#8f6d2a"/></linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#marble)"/>
+  <path d="M0 90 Q150 120 260 70 T600 110" stroke="#b9b3a8" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M0 320 Q200 290 330 340 T600 300" stroke="#b9b3a8" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <rect x="130" y="80" width="340" height="240" rx="6" fill="url(#brass)" stroke="#6e531f" stroke-width="3"/>
+  <rect x="146" y="96" width="308" height="208" rx="3" fill="none" stroke="#f1dca0" stroke-width="1.5" opacity="0.8"/>
+  <circle cx="150" cy="100" r="5" fill="#6e531f"/><circle cx="450" cy="100" r="5" fill="#6e531f"/><circle cx="150" cy="300" r="5" fill="#6e531f"/><circle cx="450" cy="300" r="5" fill="#6e531f"/>
+  <text x="300" y="160" text-anchor="middle" font-family="Georgia, serif" font-size="34" letter-spacing="6" fill="#3d2c0c">ARCHIVE</text>
+  <text x="300" y="192" text-anchor="middle" font-family="Georgia, serif" font-size="15" letter-spacing="3" fill="#3d2c0c">CONTINUITY HOLDINGS</text>
+  <line x1="200" y1="212" x2="400" y2="212" stroke="#3d2c0c" stroke-width="1.5"/>
+  <text x="300" y="250" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#3d2c0c">Founded 2019</text>
+  <text x="300" y="282" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="14" fill="#3d2c0c">You were here. We can prove it.</text>
+  <text x="20" y="385" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6b655b">Mon 21 Sep · 08:52</text>
+</svg>

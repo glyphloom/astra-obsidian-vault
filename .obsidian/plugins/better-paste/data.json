@@ -1,0 +1,51 @@
+{
+  "autoClean": true,
+  "listNesting": true,
+  "quoteContinuation": true,
+  "showReleaseNotes": true,
+  "fileMode": "off",
+  "imageMode": "link",
+  "imageNameTemplate": "{{name}}",
+  "imageSizeOptions": "200, 400, 600",
+  "imageClassOptions": "",
+  "noteProperty": "bp",
+  "imageSizeProperty": "image-width",
+  "linkEnabled": false,
+  "linkTitles": true,
+  "textTrim": true,
+  "textInvisible": true,
+  "textQuotes": false,
+  "textDashes": false,
+  "textSnippets": [
+    {
+      "id": "03lumym",
+      "name": "Remove bold from headings",
+      "rules": [
+        "s/(?<=^#{1,6} [^\\n]*?)(?<!\\\\)\\*\\*([^\\n]*?)(?<!\\\\)\\*\\*/$1/gm"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "0hfixgd",
+      "name": "Collapse blank lines",
+      "rules": [
+        "s/\\n(?:[ \\t]*\\n){2,}/\\n\\n/g"
+      ],
+      "enabled": true
+    }
+  ],
+  "urlSnippets": [
+    {
+      "id": "0mlnnv9",
+      "name": "Remove site names from titles",
+      "rules": [
+        "s#^\\[GitHub - ([^\\]]+) · GitHub\\](\\(https://github\\.com/\\S+\\))$#[$1]$2#",
+        "s#^\\[([^\\]]+) · GitHub\\](\\(https://github\\.com/\\S+\\))$#[$1]$2#",
+        "s#^\\[(.+) - YouTube\\](\\(https://(?:www\\.|m\\.)?(?:youtube\\.com|youtu\\.be)/\\S+\\))$#[$1]$2#",
+        "s#^\\[(.+) : r/[^\\s\\]]+\\](\\(https://(?:www\\.|old\\.)?reddit\\.com/\\S+\\))$#[$1]$2#",
+        "s#^\\[(.+) [-–—] [^\\]]+\\](\\(https://[a-z-]+\\.(?:m\\.)?wikipedia\\.org/\\S+\\))$#[$1]$2#"
+      ],
+      "enabled": true
+    }
+  ]
+}

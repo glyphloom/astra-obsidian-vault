@@ -1,0 +1,210 @@
+{
+  "schema": "public-vault-rewrites/v1",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "upstream": "AGENTS.md",
+      "reviewedSha256": "b087717b7796a3c5e9d7e058aed7a8792ddc44cd7a0e1ccb49a7834751514c13"
+    },
+    {
+      "path": "Vault Tagging System.md",
+      "upstream": "Matter/Obsidian/Vault Tagging System.md",
+      "reviewedSha256": "64b08824bc01ee2da2851d89ae67209104738efb2e27ef9caba3acab8209b612"
+    },
+    {
+      "path": "Strata/Skills/obsidian-authoring/SKILL.md",
+      "upstream": "Strata/Skills/obsidian-authoring/SKILL.md",
+      "reviewedSha256": "691c2e352c553d4c091c4266387c1afeb532b9435886ae50d0270ffa04aa62e0"
+    },
+    {
+      "path": "Strata/Skills/obsidian-authoring/agents/openai.yaml",
+      "upstream": "Strata/Skills/obsidian-authoring/agents/openai.yaml",
+      "reviewedSha256": "f8d769e2fc1d3c8d1b06bc15bc31735a6f0fe3e4493428d99344427dceaca2cd"
+    },
+    {
+      "path": "Strata/Skills/obsidian-daily/SKILL.md",
+      "upstream": "Strata/Skills/obsidian-daily/SKILL.md",
+      "reviewedSha256": "4a798b11caf5248ef97d304741595cd13eb31f19d738098c333568a419793276"
+    },
+    {
+      "path": "Strata/Skills/obsidian-daily/agents/openai.yaml",
+      "upstream": "Strata/Skills/obsidian-daily/agents/openai.yaml",
+      "reviewedSha256": "0eec6af4e137c33f274f7e0828a8c68cf4ed6041212e6fa425edf372b4fec82a"
+    },
+    {
+      "path": "Strata/Skills/obsidian-daily/references/daily-contract.md",
+      "upstream": "Strata/Skills/obsidian-daily/references/daily-contract.md",
+      "reviewedSha256": "a03b1602a16db212638ac30519ee6c1bb64b395d7242f46d34d7b13efd38e63b"
+    },
+    {
+      "path": "Strata/Skills/obsidian-daily/scripts/audio_transcripts.py",
+      "upstream": "Strata/Skills/obsidian-daily/scripts/audio_transcripts.py",
+      "reviewedSha256": "f1335181a60ff2338a43b4506ab676275288828fed14f45150f4b2c3ddb1e194"
+    },
+    {
+      "path": "Strata/Skills/obsidian-daily/scripts/daily_audio/__init__.py",
+      "upstream": "Strata/Skills/obsidian-daily/scripts/daily_audio/__init__.py",
+      "reviewedSha256": "514e234b13308a8f10b1414508a9f7dc46609cbc2c30957b624e7b45e725aed2"
+    },
+    {
+      "path": "Strata/Skills/obsidian-daily/scripts/daily_audio/context.py",
+      "upstream": "Strata/Skills/obsidian-daily/scripts/daily_audio/context.py",
+      "reviewedSha256": "f12cf45d9d2dea18c97bdbc6afa4933777c1ce4f24a68b55e6cf9ffb6428f49b"
+    },
+    {
+      "path": "Strata/Skills/obsidian-daily/scripts/daily_audio/discovery.py",
+      "upstream": "Strata/Skills/obsidian-daily/scripts/daily_audio/discovery.py",
+      "reviewedSha256": "36e286d3502f9d69b8913dcec1f25c20ba5bcac9cef4829d2fd4c453363736a5"
+    },
+    {
+      "path": "Strata/Skills/obsidian-daily/scripts/daily_audio/media.py",
+      "upstream": "Strata/Skills/obsidian-daily/scripts/daily_audio/media.py",
+      "reviewedSha256": "14d8e9af848d1b6ed9df658c18449cca41bac3658bdb513e3654b2e32811d3ea"
+    },
+    {
+      "path": "Strata/Skills/obsidian-daily/scripts/daily_audio/mutations.py",
+      "upstream": "Strata/Skills/obsidian-daily/scripts/daily_audio/mutations.py",
+      "reviewedSha256": "d11aa0d8f427782f5dafc42c3d119a194240764024dde8e44b436b1e78d2282a"
+    },
+    {
+      "path": "Strata/Skills/obsidian-daily/scripts/daily_audio/paths.py",
+      "upstream": "Strata/Skills/obsidian-daily/scripts/daily_audio/paths.py",
+      "reviewedSha256": "378580f0f285e3f4c680a99926fbc6fbe351470e4a309103ef0fdedf9eb0459f"
+    },
+    {
+      "path": "Strata/Skills/obsidian-daily/tests/test_obsidian_daily.py",
+      "upstream": "Strata/Skills/obsidian-daily/tests/test_obsidian_daily.py",
+      "reviewedSha256": "7c61d9cbd5ba1ea0adcabe428ba52dd3b3e1015dd0bc1953f0594ba6424b4267"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/SKILL.md",
+      "upstream": "Strata/Skills/obsidian-save/SKILL.md",
+      "reviewedSha256": "3ad6194463ab60331fdddabc839d2ea5f8a2f5041eb98f29b573f59c35688b99"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/agents/openai.yaml",
+      "upstream": "Strata/Skills/obsidian-save/agents/openai.yaml",
+      "reviewedSha256": "fb3c783ffb1dc3a4aae84f1051cd050d1308edb941b66d763c0c84fb6493bbaf"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/references/note-granularity.md",
+      "upstream": "Strata/Skills/obsidian-save/references/note-granularity.md",
+      "reviewedSha256": "cf74c9b909959c842f5bf0c68638faf2a2dbd79ed307eeeeaebbf377b58452cf"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/references/pipeline-contract.md",
+      "upstream": "Strata/Skills/obsidian-save/references/pipeline-contract.md",
+      "reviewedSha256": "124b28ceaf7792312120a3affd087f19234c884d2b7085804797a6439d731f9d"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/references/research-depth.md",
+      "upstream": "Strata/Skills/obsidian-save/references/research-depth.md",
+      "reviewedSha256": "4393b74c0d61966f9a0d1371dc536c1817f9f48616931a1a7fcce79d0d2bbc97"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/references/vault-profile.md",
+      "upstream": "Strata/Skills/obsidian-save/references/vault-profile.md",
+      "reviewedSha256": "e0ad9a3a0dd260cd6f86c0d965e6a8d4a16bb5e2bed29a09d4f16eed776dc4d5"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/scripts/acquire_image.py",
+      "upstream": "Strata/Skills/obsidian-save/scripts/acquire_image.py",
+      "reviewedSha256": "4ef63112b4401eb7993666087d564f838e954f0ebd7db4d314034a2afa133efd"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/scripts/append_daily_capture.py",
+      "upstream": "Strata/Skills/obsidian-save/scripts/append_daily_capture.py",
+      "reviewedSha256": "4ae27572f8c6e698f2853320da26459622cb51380381aa1e788fc440a124d71a"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/scripts/asset_manifest.py",
+      "upstream": "Strata/Skills/obsidian-save/scripts/asset_manifest.py",
+      "reviewedSha256": "ee2adf4817bfbbaf7c66c9f441b5c81c7dd48d5a6e78eb00e9d972b5333bdbcf"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/scripts/commit_note.py",
+      "upstream": "Strata/Skills/obsidian-save/scripts/commit_note.py",
+      "reviewedSha256": "a6c22072155db33cd8f07c256d32e8a69feacd57a54d1c284bba0f485f80b531"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/scripts/identity_ledger.py",
+      "upstream": "Strata/Skills/obsidian-save/scripts/identity_ledger.py",
+      "reviewedSha256": "b38fc674c899a7d81f2ff12a6fd7c18c2e53b7bc29117e23f15856735ecd3d96"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/scripts/probe_vault.py",
+      "upstream": "Strata/Skills/obsidian-save/scripts/probe_vault.py",
+      "reviewedSha256": "45411701c45c95e908a94e6249e4cd7d891bf80fa4130c138e46c6f9bfb01f1b"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/scripts/resolve_source.py",
+      "upstream": "Strata/Skills/obsidian-save/scripts/resolve_source.py",
+      "reviewedSha256": "69bda741e01630a790b4643b1b495b05c721e11312d014af383eb9af5a6d37f3"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/scripts/route_capture.py",
+      "upstream": "Strata/Skills/obsidian-save/scripts/route_capture.py",
+      "reviewedSha256": "41095bb203101bb994a980d133030df5c4374f2a8adb81b1f7ed5d848655a82a"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/scripts/save_common.py",
+      "upstream": "Strata/Skills/obsidian-save/scripts/save_common.py",
+      "reviewedSha256": "b252ccbf4ecea2544c947d4bc87e608d8ce35cf80d246c0715f4da02c25b19ee"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/scripts/save_scope_manifest.py",
+      "upstream": "Strata/Skills/obsidian-save/scripts/save_scope_manifest.py",
+      "reviewedSha256": "95883c7298af0825a2b826fc82547894ac8e83305f33473fae76b7873f70476d"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/scripts/save_session.py",
+      "upstream": "Strata/Skills/obsidian-save/scripts/save_session.py",
+      "reviewedSha256": "14f79c6f5b21497693c2be84897b5fb823e72a2db4c058a59ab3d5cb3fb08dcb"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/scripts/validate_note.py",
+      "upstream": "Strata/Skills/obsidian-save/scripts/validate_note.py",
+      "reviewedSha256": "6a63cb8ea25ba6744fc12011ac0d751c1fe3fe4649568d4f7d57a6dc7473265d"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/scripts/write_receipt.py",
+      "upstream": "Strata/Skills/obsidian-save/scripts/write_receipt.py",
+      "reviewedSha256": "8b92bf89b4346d32ea3e5794c32735ae016dcd95848ae1043f7e93a5adf092ce"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/tests/test_save_pipeline.py",
+      "upstream": "Strata/Skills/obsidian-save/tests/test_save_pipeline.py",
+      "reviewedSha256": "7cfaf058943c74db042fdcbf4198383b5fadae9005ae7e0076202f56809bc009"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/tests/fixtures/routing-cases.json",
+      "upstream": "Strata/Skills/obsidian-save/tests/fixtures/routing-cases.json",
+      "reviewedSha256": "67d5d5b5bf012ba15f2b489fa2516f1323b85827d4ecb1cf8ec5ff18ff606d10"
+    },
+    {
+      "path": "Strata/Skills/obsidian-save/tests/fixtures/save-contract.json",
+      "upstream": "Strata/Skills/obsidian-save/tests/fixtures/save-contract.json",
+      "reviewedSha256": "6d39a9565bedc6847b56e87358b0ed9b79c8125513a770f28e6c3b4fd67dab5e"
+    },
+    {
+      "path": "Strata/Skills/obsidian-review/SKILL.md",
+      "upstream": "Strata/Skills/obsidian-review/SKILL.md",
+      "reviewedSha256": "21aeb67e6bd2b38dc4b5498605e810d73b932e875cbec51b31b360bf3af4e042"
+    },
+    {
+      "path": "Strata/Skills/obsidian-review/agents/openai.yaml",
+      "upstream": "Strata/Skills/obsidian-review/agents/openai.yaml",
+      "reviewedSha256": "7de811b5c5656b01b235734524f9047aa724dee5a99cc8f4bee919ab3ac894b8"
+    },
+    {
+      "path": "Strata/Skills/obsidian-review/scripts/period_evidence.py",
+      "upstream": "Strata/Skills/obsidian-review/scripts/period_evidence.py",
+      "reviewedSha256": "56f3e47bde3dc1cf72cb67335b67fe2573ddee9d315b2d9b35f985f5a0f50ae5"
+    },
+    {
+      "path": "Strata/Panels/Reminders Panel.md",
+      "upstream": "Strata/Panels/Reminders Panel.md",
+      "reviewedSha256": "35374d4f3ba1b17852dd861610c327b02baa8ab747f628c576dc399c7f54b88a"
+    }
+  ]
+}

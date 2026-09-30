@@ -1,0 +1,108 @@
+{
+  "autoFold": false,
+  "hideEmptyEntry": false,
+  "hideEmptyEntryInSideDock": false,
+  "propertiesVisible": "",
+  "propertyHideAll": "hide",
+  "entries": [
+    {
+      "name": "aliases",
+      "hide": {
+        "tableInactive": true,
+        "tableActive": false,
+        "fileProperties": false,
+        "allProperties": false
+      }
+    },
+    {
+      "name": "status",
+      "hide": {
+        "tableInactive": false,
+        "tableActive": false,
+        "fileProperties": false,
+        "allProperties": false
+      }
+    },
+    {
+      "name": "url",
+      "hide": {
+        "tableInactive": false,
+        "tableActive": false,
+        "fileProperties": false,
+        "allProperties": false
+      }
+    },
+    {
+      "name": "cssclasses",
+      "hide": {
+        "tableInactive": true,
+        "tableActive": true,
+        "fileProperties": true,
+        "allProperties": true
+      }
+    },
+    {
+      "name": "related",
+      "hide": {
+        "tableInactive": true,
+        "tableActive": false,
+        "fileProperties": false,
+        "allProperties": false
+      }
+    },
+    {
+      "name": "share",
+      "hide": {
+        "tableInactive": true,
+        "tableActive": false,
+        "fileProperties": false,
+        "allProperties": false
+      }
+    },
+    {
+      "name": "home",
+      "hide": {
+        "tableInactive": true,
+        "tableActive": false,
+        "fileProperties": false,
+        "allProperties": false
+      }
+    },
+    {
+      "name": "gardens",
+      "hide": {
+        "tableInactive": true,
+        "tableActive": false,
+        "fileProperties": false,
+        "allProperties": false
+      }
+    },
+    {
+      "name": "date",
+      "hide": {
+        "tableInactive": true,
+        "tableActive": false,
+        "fileProperties": false,
+        "allProperties": false
+      }
+    },
+    {
+      "name": "start-date",
+      "hide": {
+        "tableInactive": true,
+        "tableActive": false,
+        "fileProperties": false,
+        "allProperties": false
+      }
+    },
+    {
+      "name": "end-date",
+      "hide": {
+        "tableInactive": true,
+        "tableActive": false,
+        "fileProperties": false,
+        "allProperties": false
+      }
+    }
+  ]
+}
